@@ -1,0 +1,27 @@
+[
+  {
+    "pergunta": "Qual é a diferença entre uma projeção paralela e uma perspectiva?",
+    "base": "A diferença entre uma projeção paralela e uma perspectiva está na forma como as imagens são representadas no espaço 3D.\n\n1. Projeção Paralela:\n   - Esta é a forma mais simples de representar um plano ",
+    "destilado": "A projeção paralela envolve um plano que se deslocará de forma linearmente para o sentido oposto do plano original, enquanto a perspectiva permite movimentar-se horizontalmente ou verticalmente sobre "
+  },
+  {
+    "pergunta": "Qual a diferença entre análise qualitativa e quantitativa de dados?",
+    "base": "A análise qualitativa e quantitative são duas maneiras diferentes de processar e interpretar dados, mas ambas têm seus próprios benefícios e desvantagens.\n\nAnálise Qualitativa:\n1. Interpretação: É mai",
+    "destilado": "Análise qualitativa é baseada em observações pessoais ou reflexões individuais sobre o que foi feito ou como se passou; enquanto a análise quantitativa utiliza números para representar os resultados o"
+  },
+  {
+    "pergunta": "Como representar uma função matemática em Ciência da Computação?",
+    "base": "Para representar uma função matemática em Ciência da Computação, você pode seguir os seguintes passos:\n\n1. **Identificar o tipo de função**: Primeiro, identifique qual é o tipo de função que está send",
+    "destilado": "A função matemática é um conjunto de operações que podem ser aplicadas ao valor de uma variável para obter o resultado final. Para representá-la, devemos usar as seguintes estruturas: 1) Representa-se"
+  },
+  {
+    "pergunta": "Qual é a diferença entre instruções privilegiadas e não privilegiadas?",
+    "base": "Instruções privilegiadas e não privilegiadas são duas categorias de instruções em linguagens de programação que determinam se uma operação pode ser realizada com base no nível de privilégio do usuário",
+    "destilado": "Instruções privilegiadas são programados para serem executadas com maior segurança ou eficiência em sistemas de alto nível. Instruções não privilegiadas podem ser usadas sem considerar o contexto espe"
+  },
+  {
+    "pergunta": "O que é MOM (Message Oriented Middleware)?",
+    "base": "MOM - Message-Oriented Middleware é um conjunto de tecnologias e padrões utilizados para criar sistemas de comunicação interno ou externo em ambientes empresariais. Esses middleware são projetados par",
+    "destilado": "MOM é um conjunto de bibliotecas e ferramentas para desenvolvimento web em Java que oferecem funcionalidades como autenticação, sessões, segurança e integração com outros sistemas. Isso significa que "
+  }
+]

@@ -1,0 +1,332 @@
+[
+  {
+    "instruction": "Qual é a diferença entre um protocolo e uma rota na comunicação de redes?",
+    "input": "",
+    "reasoning": "Um protocolo são as regras que os dispositivos seguem para se comunicar, enquanto o termo rota refere-se à escolha do melhor caminho para os dados. O protocolo abrange a forma como os dados são formatados e transmitidos, enquanto a rota envolve a decisão sobre qual caminho os dados deverão seguir.",
+    "answer": "Um protocolo define as regras de comunicação entre dispositivos, enquanto a rota é o processo de escolher o melhor caminho para enviar os dados."
+  },
+  {
+    "instruction": "Descreva como um circuito digital poderia ser projetado para comparar dois valores binários de três bits e produzir uma saída que indica se o primeiro valor é menor que o segundo.",
+    "input": "",
+    "reasoning": "1. A comparação entre os valores binários pode ser feita bit a bit, começando pelo menos significativo (bit mais à direita). 2. Se um bit do primeiro número for menor que o correspondente bit do segundo número, o resultado geral será que o primeiro número é menor. 3. Para cada bit, se A for menor que B, isso pode ser expresso como uma combinação lógica de AND e OR dos bits correspondentes.",
+    "answer": "Um circuito poderia ser projetado comparando os bits de menos a mais significativo, usando portas lógicas para implementar as condições de AND e OR descritas."
+  },
+  {
+    "instruction": "O que é um teste de unidade na programação e como ele pode ser implementado?",
+    "input": "",
+    "reasoning": "Primeiro, identifico que um teste de unidade envolve a verificação individual de uma pequena parte do código, como um método. Em seguida, entendo que este método é invocado com certos parâmetros para verificar se retorna o resultado esperado.",
+    "answer": "Um teste de unidade é uma classe que testa métodos específicos em outras classes, verificando se a execução desses métodos com parâmetros determinados resulta no valor esperado. Por exemplo, um teste de unidade pode criar um objeto 'triângulo' e chamar o método 'classifica', verificando se o retorno do método corresponde ao tipo de triângulo esperado com base nos valores fornecidos para a instância de triângulo."
+  },
+  {
+    "instruction": "Explique como é atualizado o valor de d! no algoritmo de Bresenham para rasterização de uma circunferência.",
+    "input": "",
+    "reasoning": "No algoritmo de Bresenham, a variável d! é usada para decidir entre os dois possíveis pixels vizinhos que devem ser escolhidos. A atualização de d! depende da comparação entre seus valores positivo e negativo. Se d! for menor do que zero, ele recebe um valor específico; caso contrário, recebe outro valor.",
+    "answer": "Se d! < 0, incrementa ∆𝐸 de 2 e ∆𝑆𝐸 de 4. Caso contrário, incrementa 𝑑! de ∆𝑆𝐸, ∆𝐸 de 2 e ∆𝑆𝐸 de 2."
+  },
+  {
+    "instruction": "Qual é a importância de consultar um estatístico antes da coleta e análise dos dados em um projeto de avaliação?",
+    "input": "",
+    "reasoning": "A consulta a um estatístico pode garantir a adequação das medidas estatísticas utilizadas, permitindo uma coleta e análise mais precisa dos dados. Além disso, o estatístico pode orientar sobre técnicas apropriadas para lidar com eventuais questões emergentes durante a avaliação.",
+    "answer": "Consultar um estatístico é importante pois assegura a correção na aplicação de medidas estatísticas e oferece suporte técnico durante todo o processo de coleta e análise dos dados."
+  },
+  {
+    "instruction": "Qual é a estratégia recomendada para lidar com prazos de visitas que podem ser estourados?",
+    "input": "",
+    "reasoning": "A pergunta se refere à situação onde o prazo de uma visita pode ser ultrapassado. É necessário analisar possíveis cenários e proporções adequadas. Uma resposta geral deve abordar a comunicação com o cliente e o planejamento adicional.",
+    "answer": "Deve-se notificar imediatamente o cliente sobre o possível atraso, explicando as razões e buscando uma nova data conveniente para ambos."
+  },
+  {
+    "instruction": "Considere que você precisa representar dados de alunos e suas notas em um sistema educacional. Como você estruturaria esses dados usando tuplas e listas?",
+    "input": "",
+    "reasoning": "Primeiro, precisamos entender que tuplas são úteis para agrupar dados relacionados que não precisam ser alterados. Listas permitem armazenar múltiplos itens de um mesmo tipo ou tipos diferentes. Neste caso, cada aluno teria informações como matrícula, nome e e-mail, enquanto suas notas seriam uma lista separada.",
+    "answer": "Podemos usar tuplas para representar os alunos (com seus dados) e listas para armazenar as notas de cada aluno. Em seguida, uma lista maior poderia conter essas tuplas, juntamente com as listas de notas."
+  },
+  {
+    "instruction": "Quando se ordena um vetor de pares (pair) no C++, como o algoritmo decide qual elemento é maior ou menor?",
+    "input": "",
+    "reasoning": "Os pares são classificados primeiro com base em seus elementos 'first'. Se esses forem iguais, a comparação avança para os elementos 'second'. Portanto, podemos inferir o processo de comparação usado pelo algoritmo.",
+    "answer": "O algoritmo decide qual elemento é maior ou menor primeiramente comparando os valores dos elementos 'first' dos pares. Se esses forem iguais, a comparação então avança para os elementos 'second'."
+  },
+  {
+    "instruction": "Qual é a diferença entre um problema intratável e um bem resolvido em termos de algoritmos polinomiais?",
+    "input": "",
+    "reasoning": "Primeiro, preciso identificar os termos chave: 'problema intratável' refere-se à ausência de algoritmo polinomial para resolução. Em contraste, 'bem resolvido' implica a existência de um algoritmo polinomial. Portanto, o principal diferencial está no fato de que problemas intratáveis não possuem algoritmos polinomiais eficientes.",
+    "answer": "Um problema intratável é aquele para o qual não existe um algoritmo polinomial eficiente, enquanto um problema bem resolvido possui um algoritmo polinomial para ser resolvido."
+  },
+  {
+    "instruction": "Qual é a importância da manutenção dos limites de operação do sistema na aviação e como isso se relaciona com a segurança?",
+    "input": "",
+    "reasoning": "O 'flight envelope' seguro, que são os limites de operação do sistema do aparelho, garantindo que o software não permitirá ultrapassar esses limites. Isso é crucial para prevenir acidentes aéreos. A pergunta busca entender essa prática em termos gerais da aviação.",
+    "answer": "A manutenção dos limites de operação do sistema na aviação é fundamental para garantir a segurança dos voos, pois evita que o aparelho ultrapasse condições críticas que podem levar a falhas. O software garante que as operações estejam dentro desses limites seguros."
+  },
+  {
+    "instruction": "O que representa cada variável na expressão matemática de um problema de programação linear (PPL)?",
+    "input": "",
+    "reasoning": "A pergunta busca entender o significado das variáveis no modelo matemático apresentado, que são as variáveis de decisão do problema. Essas variáveis representam a produção dos produtos disponíveis para a empresa.",
+    "answer": "cj representa o lucro unitário do produto j; xj (j = 1, 2, ..., n) é o nível de produção do produto j."
+  },
+  {
+    "instruction": "Qual é a função do classificador Random Forest na detecção de bots em contas de redes sociais?",
+    "input": "",
+    "reasoning": "O Botometer utiliza um classificador do tipo Random Forest (RF) para determinar se uma conta é humana ou não. Este classificador processa características das contas e retorna a probabilidade da conta ser humana ou não. Portanto, podemos concluir que o Random Forest serve para analisar os dados de entrada e prever a classe da conta.",
+    "answer": "O Random Forest é usado para treinar um modelo capaz de classificar as contas com base em suas características, fornecendo uma probabilidade de serem humanas ou bots."
+  },
+  {
+    "instruction": "O que é view interpolation (interpolação de visão) e por que simplesmente fazer um cross-dissolve entre duas imagens não pode ser suficiente?",
+    "input": "",
+    "reasoning": "A interpolação de visão é um método usado em IBR para criar uma imagem intermediária a partir de duas imagens de uma cena diferentes. No entanto, um simples 'cross-dissolve' (fade) entre as imagens pode causar problemas como fantasmas porque não considera corretamente os movimentos dos pixels.",
+    "answer": "Interpolação de visão é necessária para mover corretamente os pixels antes de misturar cores. Simples cross-dissolve causa fantasmas."
+  },
+  {
+    "instruction": "Explicite um algoritmo de ordenação recursivo que usa a mediana para dividir os elementos.",
+    "input": "",
+    "reasoning": "1) O algoritmo divide o conjunto de dados em dois, baseado na mediana. Isso é feito para garantir uma divisão mais equilibrada dos dados. 2) Em seguida, aplica recursivamente a mesma lógica em cada subconjunto, garantindo que os elementos sejam ordenados adequadamente.",
+    "answer": "O algoritmo divide o conjunto original na mediana e depois chama recursivamente a função para cada subconjunto. Ao final, realiza um merge dos resultados das chamadas recursivas mantendo a ordem correta."
+  },
+  {
+    "instruction": "Qual das opções abaixo não é considerada um elemento básico de uma janela de aplicativo do Windows?",
+    "input": "",
+    "reasoning": "A pergunta se refere aos elementos básicos de uma janela de aplicativo do Windows, então devemos analisar cada opção para identificar a que menos faz parte dos componentes essenciais dessas janelas. Botões minimizar e restaurar são comuns; barra de ferramentas é um elemento típico; ícones também são usados frequentemente. No entanto, uma barra de rolagagem vertical (scroll) normalmente não está presente em todas as janelas básicas do Windows como um componente essencial.",
+    "answer": "c) Barra de rolagagem vertical."
+  },
+  {
+    "instruction": "Quando se verifica que a coordenada x do primeiro ponto é maior que a de um segundo ponto, o que ocorre nos valores das transformações ∆8 e ∆9?",
+    "input": "",
+    "reasoning": "A troca dos extremos se a coordenada x do primeiro for superior ao segundo. Logo, nesse caso específico, os valores de ∆8 e ∆9 seriam substituídos pelos seus respectivos valores simétricos.",
+    "answer": "Os valores de ∆8 e ∆9 são substituídos pelos seus respectivos valores simétricos."
+  },
+  {
+    "instruction": "Diferencie sistemas críticos de sistemas não-críticos com base no impacto das violações de prazos.",
+    "input": "",
+    "reasoning": "1) Sistemas críticos têm consequências graves se as metas temporais não forem cumpridas, prejuízos maiores do que os benefícios. 2) Sistemas não-críticos podem ter suas metas temporais violadas sem grandes impactos negativos.",
+    "answer": "Sistemas críticos têm consequências graves se as metas temporais forem violadas, enquanto sistemas não-críticos podem tolerar a violação dessas metas com menor impacto."
+  },
+  {
+    "instruction": "Qual é a diferença entre símbolos variáveis e símbolos terminais em gramáticas formais?",
+    "input": "",
+    "reasoning": "Os símbolos variáveis representam noções abstratas na gramática, podendo ser substituídos por outras expressões. Os símbolos terminais são os caracteres finais do alfabeto da linguagem gerada.",
+    "answer": "Símbolos variáveis são non-terminais usados para construir palavras, enquanto símbolos terminais são os caracteres finais da linguagem."
+  },
+  {
+    "instruction": "Qual é a relação entre arte e matemática na criação de obras de arte como a Mona Lisa?",
+    "input": "",
+    "reasoning": "1) Obras de arte, como a Mona Lisa, seguem princípios matemáticos específicos. 2) Um exemplo dado é a razão áurea ou proporção divina, usada na composição da pintura.",
+    "answer": "A relação entre arte e matemática na criação de obras de arte como a Mona Lisa é que artistas utilizam princípios matemáticos para estruturar suas obras de maneira harmoniosa e balanceada. Nesse caso, a razão áurea foi aplicada para criar uma composição visual atraente."
+  },
+  {
+    "instruction": "Como as interfaces gráficas de usuário (GUIs) facilitam a interação com os usuários comparadas à memória de comando?",
+    "input": "",
+    "reasoning": "As pessoas são melhores para reconhecer coisas do que se lembrar delas. Portanto, GUIs usam esse conceito permitindo que os usuários reconheçam elementos familiares em vez de memorizarem comandos específicos.",
+    "answer": "GUIs facilitam a interação porque eles permitem que os usuários reconheçam e interajam com elementos familiares, ao invés de precisarem se lembrar de comandos específicos."
+  },
+  {
+    "instruction": "Quando chamamos um método de uma instância de classe, como é que o interpretador Python entende qual objeto específico está sendo referido?",
+    "input": "",
+    "reasoning": "Primeiro, devemos entender que a sintaxe 'objeto.método()' é usada para chamar métodos em Python. Segundo, o termo 'self' dentro do método representa o próprio objeto instanciado da classe. Quando o método é chamado, o interpretador automaticamente passa esse objeto como primeiro argumento, mesmo que não seja explicitamente mencionado na chamada. Isso permite que os métodos acessem e manipulem as características específicas desse objeto.",
+    "answer": "O interpretador Python adiciona implícitamente o objeto à chamada do método, utilizando-o como 'self'."
+  },
+  {
+    "instruction": "Qual é a ideia central das linguagens funcionais e como isso se relaciona com a definição da função twice?",
+    "input": "",
+    "reasoning": "A pergunta busca entender o conceito fundamental das linguagens funcionais, que é o tratamento de funções como cidadãos de primeira classe. A função twice é um exemplo prático disso, onde ela manipula outras funções retornando uma nova função equivalente à aplicação da original duas vezes.",
+    "answer": "A ideia central das linguagens funcionais é que as funções são consideradas tipos de dados igualitários, podendo ser passadas como argumentos ou retornadas como resultados. A definição da função twice ilustra isso, criando uma nova função baseada na aplicação dupla da função original."
+  },
+  {
+    "instruction": "O que é currificação e como ela funciona no λ-cálculo?",
+    "input": "",
+    "reasoning": "A pergunta pede uma explicação sobre o conceito de currificação, sua origem e seu funcionamento no λ-cálculo. Primeiro, identifico que currificação refere-se à propriedade onde a aplicação de uma função também é uma função. Em seguida, descrevo como esta propriedade permite interpretar funções mult variáveis como sequências de funções univariables.",
+    "answer": "Currificação é um conceito no λ-cálculo que permite expressar uma função com múltiplos argumentos como várias funções com apenas um argumento. Por exemplo, ao invés de ter uma função f(a, b), ela pode ser interpretada como g(a)(b), onde g é uma função que retorna outra função."
+  },
+  {
+    "instruction": "Explicite a diferença entre as primitivas de renderização GL_POINTS e glutStrokeCharacter no contexto da representação gráfica.",
+    "input": "",
+    "reasoning": "Primeiro, considera-se que GL_POINTS é uma primitiva de renderização básica do OpenGL usada para desenhar pontos individuais. Segundo, glutStrokeCharacter é um método específico do GLUT (GLUT Utility Toolkit) utilizado para desenhar caracteres como linhas retas, sem preenchimento interno.",
+    "answer": "A principal diferença entre as primitivas GL_POINTS e glutStrokeCharacter reside no tipo de representação gráfica: GL_POINTS é utilizada para criar pontos individuais em um contexto de renderização 2D ou 3D do OpenGL, enquanto glutStrokeCharacter é destinado ao desenho de caracteres como linhas retas, sem preenchimento interno."
+  },
+  {
+    "instruction": "Qual é uma das medidas de segurança recomendadas para se proteger contra ataques cibernéticos?",
+    "input": "",
+    "reasoning": "Lista várias recomendações, sendo uma delas manter o software e o sistema operacional atualizados.",
+    "answer": "Mantenha o software e seu sistema operacional atualizados."
+  },
+  {
+    "instruction": "Qual é o propósito do método especial `__str__` em classes Python e como ele pode ser implementado na classe `Pessoa`?",
+    "input": "",
+    "reasoning": "O `__str__` é um método especial em Python que define como uma instância de uma classe deve ser representada como uma string. Ele é automaticamente chamado quando se usa a função `print()` ou `str()` com um objeto da classe. Para a classe `Pessoa`, o `__str__` poderia ser implementado para exibir os dados do objeto em formato legível, como mostrado no exemplo.",
+    "answer": "__str__ é usado para fornecer uma representação de string útil e legível de um objeto; na classe Pessoa, pode ser implementado para imprimir informações sobre a pessoa."
+  },
+  {
+    "instruction": "Qual é a diferença entre requisitos de configuração e modos de operação em um sistema computacional?",
+    "input": "",
+    "reasoning": "Para entender a distinção, primeiro analisamos os termos individualmente. Requisitos de configuração se referem aos parâmetros necessários para configurar o sistema, como memória primária e secundária. Modos de operação, por outro lado, descrevem diferentes estados ou maneiras como o sistema pode funcionar, como normal e especiais. Em seguida, consideramos que ambos são aspectos importantes do design e implementação de um sistema computacional.",
+    "answer": "Requisitos de configuração se referem aos parâmetros necessários para a instalação e ajuste inicial do sistema, enquanto modos de operação descrevem diferentes estados ou maneiras como o sistema pode funcionar."
+  },
+  {
+    "instruction": "Explicite a forma de representação numérica de um número decimal utilizando ponto flutuante no padrão IEEE 754 para um tipo double.",
+    "input": "",
+    "reasoning": "O padrão IEEE 754 define o formato para números de ponto flutuante. Um 'double' é um tipo que utiliza 64 bits, divididos em sinal (1 bit), expoente (11 bits) e fração ou mantissa (52 bits). O número decimal 0.1 será convertido em binário com precisão limitada, resultando numa representação aproximada.",
+    "answer": "Um número decimal como 0.1 é representado no formato IEEE 754 para double como: Sinal: 0; Expoente: valor em binário equivalente a 1023 + o valor real do expoente (com subtração das 10 bits implícitos); Fração: 0.0001100110011... repetindo-se indefinidamente."
+  },
+  {
+    "instruction": "Qual é a vantagem de usar uma busca binária em um arranjo ordenado?",
+    "input": "",
+    "reasoning": "Uma busca binária divide continuamente o intervalo da pesquisa ao meio, reduzindo o número de comparações necessárias. Isso resulta em uma complexidade temporal de O(log n), enquanto uma busca sequencial tem complexidade O(n). Portanto, a busca binária é mais eficiente.",
+    "answer": "A busca binária oferece uma eficiência superior ao percorrer apenas um pequeno subconjunto do arranjo durante cada iteração, em comparação com a busca sequencial que verifica todos os elementos."
+  },
+  {
+    "instruction": "Com base no exemplo de um sistema que permite recuperar contas inativas, como essa funcionalidade compararia com uma ferramenta de gestão de heranças digitais?",
+    "input": "",
+    "reasoning": "1. A funcionalidade de recuperação de contas inativas ajuda a preservar os dados pessoais e a identidade digital das pessoas que podem ter deixado suas contas inativas por algum motivo.\n2. Uma ferramenta de gestão de heranças digitais, como o Never Gone, também visa preservar esses dados mas com um foco maior em transferir heranças digitais para os herdeiros após a morte do titular da conta.",
+    "answer": "A funcionalidade de recuperação de contas inativas é mais voltada para evitar a perda temporária de contas, enquanto ferramentas como o Never Gone são direcionadas para preservar e transferir heranças digitais após a morte."
+  },
+  {
+    "instruction": "Qual propriedade comum às operações de abertura e fechamento na morfologia matemática de imagens?",
+    "input": "",
+    "reasoning": "Analisando as propriedades fornecidas, vemos que ambas as operações compartilham a mesma estrutura na descrição das propriedades. Em particular, elas ambas têm uma propriedade que envolve um subconjunto e a operação aplicada duas vezes resulta no mesmo conjunto original.",
+    "answer": "Propriedade c) (X◦B)◦B = X◦B para abertura; (X•B)•B = X•B para fechamento."
+  },
+  {
+    "instruction": "Quais são as restrições comuns sobre os tipos permitidos para índices nas linguagens de programação?",
+    "input": "",
+    "reasoning": "Os tipos permitidos para índices podem ser questionados, indicando que existem restrições específicas. Perguntar diretamente sobre as restrições implica buscar essa informação.",
+    "answer": "Os tipos permitidos para índices em linguagens de programação geralmente são inteiros ou unsigned integers."
+  },
+  {
+    "instruction": "Descreva as etapas que um programa de gestão de estoque devia seguir para processar informações sobre produtos e armazéns.",
+    "input": "",
+    "reasoning": "1. O programa deve coletar os dados iniciais, como o estoque inicial e custos de cada tipo de produto. Isso é necessário para qualquer sistema de gestão de estoque para entender a situação atual. 2. Em seguida, ele precisa processar esses dados para gerar relatórios sobre a quantidade de produtos em cada armazém e no total por tipo. Isto ajuda na visualização do fluxo e controle dos produtos. 3. A fim de fornecer uma análise completa, o programa também deve calcular e exibir o custo total de todos os produtos por armazém e para cada tipo individualmente.",
+    "answer": "O programa deve coletar o estoque inicial e custos de produto, gerar relatórios sobre quantidade por armazém e total por tipo, e calcular o custo total."
+  },
+  {
+    "instruction": "Qual é a diferença entre pseudoanonimização e encriptação de dados?",
+    "input": "",
+    "reasoning": "Pseudoanonimização envolve o uso de técnicas que tornam os dados menos identificáveis, mas ainda assim podem ser revertidos. Encriptação de dados envolve a codificação dos dados para que apenas aqueles com as chaves corretas possam decodificar e ler os dados. Essas duas técnicas são métodos comuns de garantir a segurança e privacidade dos dados sem comprometer completamente a identificabilidade.",
+    "answer": "Pseudoanonimização é um método de tornar os dados menos identificáveis, enquanto encriptação envolve codificar os dados para protegê-los."
+  },
+  {
+    "instruction": "Qual é a função da lógica nos formalismos de representação de conhecimento e em quais sistemas ela pode ser explicitamente encontrada?",
+    "input": "",
+    "reasoning": "A lógica serve como base para a maioria dos formalismos de representação de conhecimento, sendo utilizada tanto de forma explícita quanto disfarçada. Sistema baseados na linguagem Prolog explicitamente usam lógica.",
+    "answer": "A lógica é fundamental para os formalismos de representação de conhecimento e pode ser encontrada explicitamente em sistemas como o Prolog."
+  },
+  {
+    "instruction": "O que é um DAO (Data Access Object) e qual seu propósito na programação orientada a objetos?",
+    "input": "",
+    "reasoning": "Um Data Access Object (DAO) é uma camada de abstração no desenvolvimento de software, responsável por fornecer métodos para acessar e manipular dados do banco de dados. Ao implementar um DAO corretamente, o código da aplicação se torna independente das regras de acesso ao banco de dados, facilitando a manutenção e a troca entre diferentes bancos de dados.",
+    "answer": "Um DAO é uma camada que abstrai as operações com o banco de dados, permitindo que a lógica da aplicação permaneça independente do backend de armazenamento."
+  },
+  {
+    "instruction": "Como funciona a abordagem preguiçosa (lazy) na recuperação de memória?",
+    "input": "",
+    "reasoning": "A abordagem preguiçosa é uma estratégia onde a recuperação da memória ocorre apenas quando as células inacessíveis são criadas e a lista de espaços disponíveis se torna vazia. Isso implica que a recuperação não é realizada continuamente, mas somente em momentos específicos.",
+    "answer": "Na abordagem preguiçosa, a recuperação de memória acontece quando as células inacessíveis são criadas e a lista de espaços disponíveis se esgota."
+  },
+  {
+    "instruction": "Dado um retângulo e um segmento de reta, como se calcula a interseção do segmento com o retângulo?",
+    "input": "",
+    "reasoning": "1. Primeiro, é necessário determinar as equações paramétricas do segmento de reta em relação aos vértices A e B. 2. Em seguida, substituir o valor Y pelo mínimo ou máximo do retângulo para encontrar o valor t da equação paramétrica. 3. Usar esse valor t na equação paramétrica do X para calcular a coordenada de interseção.",
+    "answer": "A interseção é calculada encontrando o valor t que faz com que a coordenada Y do segmento seja igual ao mínimo ou máximo do retângulo, e então usando esse t para encontrar a coordenada X correspondente."
+  },
+  {
+    "instruction": "Como funciona o princípio da indução matemática na resolução de problemas?",
+    "input": "",
+    "reasoning": "O princípio da indução matemática envolve duas etapas: a base e a indutiva. Primeiramente, se prova que um resultado é verdadeiro para um caso específico (base). Em seguida, assume-se que o resultado é verdadeiro para um caso qualquer e se demonstra que isso implica na validade do mesmo resultado para o próximo caso (indução). No exemplo dado, a base é estabelecida para n = 1, depois se prova que se válida para n então também é para n + 1.",
+    "answer": "O princípio da indução matemática consiste em provar uma proposição para um caso básico e então demonstrar que, se verdadeira para algum caso n, ela é também verdadeira para o próximo caso n+1."
+  },
+  {
+    "instruction": "Qual é a diferença entre a complexidade de tempo O(n) e O(2^n)?",
+    "input": "",
+    "reasoning": "Para responder à pergunta, primeiro identifico que o O(n) indica uma função linear, onde o tempo de execução aumenta diretamente proporcionalmente ao tamanho da entrada. Em seguida, percebo que o O(2^n) sugere um crescimento exponencial, onde o tempo de execução dobela a cada incremento no tamanho da entrada. Portanto, a diferença fundamental é que uma função linear cresce em proporção direta à entrada, enquanto uma exponencial aumenta muito mais rapidamente.",
+    "answer": "A complexidade O(n) indica crescimento linear, onde o tempo de execução aumenta diretamente proporcionalmente ao tamanho da entrada. Já a complexidade O(2^n) representa um crescimento exponencial, onde o tempo gera dobros a cada incremento na entrada."
+  },
+  {
+    "instruction": "Quais etapas envolvem o planejamento no ciclo de desenvolvimento de software?",
+    "input": "",
+    "reasoning": "Várias atividades relacionadas ao planejamento, como estimativa do tamanho, esforço, recursos, cronograma e riscos. Essas são as principais etapas do planejamento citadas.",
+    "answer": "Estimativa do tamanho, estimativa do esforço, estimativa dos recursos, estimativa de cronograma, estimativa dos riscos."
+  },
+  {
+    "instruction": "Qual métrica de erro é mais robusta a outliers e por quê?",
+    "input": "",
+    "reasoning": "A Soma de Distâncias Robustas (SRD) é mencionada como a métrica mais robusta a outliers, pois usa uma função que cresce mais lentamente que a penalidade quadrática. Isso significa que ela trata menos severamente os erros grandes em comparação com outras métricas, tornando-a mais respeitosa com os outliers.",
+    "answer": "A Soma de Distâncias Robustas (SRD) é mais robusta a outliers porque usa uma norma robusta que cresce mais lentamente que a penalidade quadrática."
+  },
+  {
+    "instruction": "Explain the difference between creating a single-element tuple with and without a comma.",
+    "input": "",
+    "reasoning": "Sem a vírgula, Python interpreta o valor entre parênteses como um número inteiro. Com a vírgula, Python reconhece que é uma tupla com um único elemento. O uso de parênteses é opcional para tuplas de um único elemento.",
+    "answer": "Sem vírgula: (1) -> 1; Com vírgula: (1,) -> tupla(1); Parênteses opcionais: 1, -> (1)"
+  },
+  {
+    "instruction": "O que é importante considerar ao escolher uma ferramenta de gerenciamento de tarefas para uma equipe de desenvolvimento?",
+    "input": "",
+    "reasoning": "1. Recursos e diferenciais das ferramentas são relevantes para a tomada de decisão. 2. Ajuste com o processo operacional da equipe deve ser garantido.",
+    "answer": "É importante avaliar os recursos e vantagens únicas de cada ferramenta antes de escolher, além de assegurar que a seleção se encaixe perfeitamente no fluxo de trabalho existente da equipe."
+  },
+  {
+    "instruction": "Explicite como a função F(x, y) = x² + y² - R² pode ser usada para determinar a posição relativa de um ponto (x, y) em relação à circunferência.",
+    "input": "",
+    "reasoning": "A função F(x, y) = x² + y² - R² é derivada da equação geral da circunferência. Analisando o valor dessa função para diferentes pontos (x, y), podemos determinar a posição relativa desse ponto em relação à circunferência de raio R centrada no origem.",
+    "answer": "- Se F(x, y) = 0, o ponto (x, y) está na circunferência.\n- Se F(x, y) > 0, o ponto (x, y) está externo à circunferência.\n- Se F(x, y) < 0, o ponto (x, y) está interno à circunferência."
+  },
+  {
+    "instruction": "Qual é a diferença entre os sistemas de referência utilizados no CAD de Mecânica e na modelagem de sólidos?",
+    "input": "",
+    "reasoning": "No CAD de Mecânica, o sistema de referência é baseado em um espaço cartesiano onde as dimensões são pequenas (milímetros ou nanômetros). Na modelagem de sólidos, o sistema de referência é também cartesiano mas com foco no pivô do objeto, que pode ser seu centro de gravidade.",
+    "answer": "No CAD de Mecânica, as medidas são em milímetros ou nanômetros, enquanto na modelagem de sólidos, a atenção está centrada nos detalhes locais de cada objeto ao redor de um pivô."
+  },
+  {
+    "instruction": "O que são requisitos funcionais e não-funcionais em um sistema de software?",
+    "input": "",
+    "reasoning": "Os requisitos funcionais descrevem o que o sistema deve fazer, focando nas funcionalidades diretamente relacionadas ao negócio. Requisitos não-funcionais abordam aspectos como a performance do sistema e as pessoas envolvidas no projeto.",
+    "answer": "Requisitos funcionais são especificações sobre as funções que o sistema deve executar, enquanto os requisitos não-funcionais se referem a características gerais do sistema, como desempenho, segurança e usabilidade."
+  },
+  {
+    "instruction": "Qual é a diferença entre Plano de Projeção e Centro de Projeção na projeção geométrica?",
+    "input": "",
+    "reasoning": "Primeiro, identifico que o plano de projeção é uma superfície onde os objetos 3D serão representados em 2D. Em seguida, percebo que o centro de projeção é um ponto fixo a partir do qual partem os raios. Esses elementos servem funções distintas na transformação da representação tridimensional em bidimensional.",
+    "answer": "O plano de projeção é a superfície onde o objeto 3D será visualizado como 2D, enquanto o centro de projeção é o ponto fixo de onde partem os raios que projetam as imagens."
+  },
+  {
+    "instruction": "Qual é a sequência de etapas para criar um banco de dados e inserir dados utilizando MySQL Workbench?",
+    "input": "",
+    "reasoning": "A pergunta busca entender o processo detalhado de criação do banco de dados, incluindo diagramação e geração de código SQL. É necessário descrever passo a passo desde o design do esquema até a execução das consultas.\n1. Criar o Diagrama Entidades-Relacionamentos no MySQL Workbench e exportá-lo.\n2. Gerar o script SQL do banco de dados.\n3. Criar o banco de dados no Workbench.\n4. Inserir dados de teste e executar consultas.\n5. Salvar o script inicial com todos os comandos utilizados.",
+    "answer": "1. Crie o Diagrama Entidades-Relacionamentos; 2. Gere o SQL e crie o banco de dados no Workbench; 3. Insira dados de teste e execute consultas; 4. Salve o script inicial."
+  },
+  {
+    "instruction": "Qual é o procedimento recomendado após a conclusão de um sprint no Scrum?",
+    "input": "",
+    "reasoning": "Após finalizar um sprint, deve-se utilizar no máximo um dia para pequenos ajustes e realizar novo planejamento. Isso indica que os passos subsequentes envolvem revisões rápidas e preparação para o próximo ciclo.",
+    "answer": "Após concluir um sprint, deve-se fazer pequenos ajustes em até um dia e então planejar o próximo sprint."
+  },
+  {
+    "instruction": "Quais são os fatores que podem levar a mais de um bloco proposto por slot (forks) em um protocolo de consenso Proof of Stake?",
+    "input": "",
+    "reasoning": "Primeiro, considera-se que na PoS, o consenso é alcançado quando uma maioria das participações válida um bloco. Segundo, há situações que podem causar atrasos ou desacordos entre os validadores, resultando em múltiplos blocos propostos.",
+    "answer": "Atrasos de comunicação entre os nós e ataques na rede são exemplos comuns que podem levar a forks."
+  },
+  {
+    "instruction": "Qual é a definição dos direitos morais do autor de um programa de software segundo a lei brasileira mencionada?",
+    "input": "",
+    "reasoning": "A lei trouxe 'significativa limitação aos direitos morais do autor do programa'. Isso indica que os direitos morais, antes mais amplamente protegidos, foram reduzidos de alguma forma pela nova legislação.",
+    "answer": "Os direitos morais do autor de um programa de software, segundo a lei mencionada, sofreram limitações significativas."
+  },
+  {
+    "instruction": "Qual é o direito do aluno em caso de impedimento para participar de uma avaliação?",
+    "input": "",
+    "reasoning": "Um artigo que discute o direito do aluno em relação à participação nas avaliações, especificamente quando há impedimento. De acordo com a informação dada, o aluno tem esse direito, e deve ser interpretado no contexto do restante da legislação educacional.",
+    "answer": "O aluno tem o direito de requerer a oportunidade de realizar as avaliações em uma segunda chamada."
+  },
+  {
+    "instruction": "O que é um texel e como OpenGL lidar com texturas?",
+    "input": "",
+    "reasoning": "1. Para entender o conceito de texel, é necessário identificar sua definição dentro do contexto de textura em computação gráfica; 2. Para compreender a relação entre OpenGL e texturas, é importante notar que OpenGL não suporta diretamente arquivos gráficos comuns mas permite a leitura de imagens carregadas na memória.",
+    "answer": "Um texel é uma unidade mínima de uma textura, similar ao pixel em uma imagem. Para lidar com texturas, OpenGL requer que as imagens sejam carregadas na memória e não suporta diretamente arquivos BMP, GIF ou JPEG."
+  },
+  {
+    "instruction": "Qual tipo de avaliação é realizada no último encontro presencial do curso?",
+    "input": "",
+    "reasoning": "'PROVA FINAL de SO e IES (presencial no polo)', indicando que a prova final será realizada presencialmente. Isso pode ser deduzido diretamente da informação fornecida.",
+    "answer": "A avaliação é uma PROVA FINAL."
+  }
+]

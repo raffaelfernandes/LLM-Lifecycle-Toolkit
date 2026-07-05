@@ -1,0 +1,22 @@
+[
+    {
+        "question": "O que é uma árvore AVL e quais são suas propriedades de balanceamento?",
+        "after": "Uma árvore AVL é um tipo de árvore balanceamento usado para garantir que o usuário não gera um tempo de busca, inserção e exclusão. Ela mantém a propriedade de balanceamento dos elementos em que a altura de altura é calculada ao longo do tempo. Isso significa que a árvore AVL garante a eficiência da árvore em tempo O(log n), enquanto a árvore média O(n) para garantir que o usuário não gera um tempo de busca, inserção e exclusão."
+    },
+    {
+        "question": "Explique o algoritmo QuickSort e sua complexidade no melhor e pior caso.",
+        "after": "QuickSort é uma sequência finita de partes do código, usada para sortar uma estrutura de dados em ordem. Ele divide a lista de valores em uma lista de bits, e fornece a eficiência da superfície de ordenação. Por exemplo, um lista de bits tem menor maior ou igual a lista de bits, enquanto um lista de bits pode ser menor igual a lista de bits. O processo se concentra em uma estrutura com o último valor e obtém os bits em ordem."
+    },
+    {
+        "question": "Qual a diferença entre processos e threads em sistemas operacionais?",
+        "after": "Threads são operações de processamento que permitem a manipulação de sistemas operacionais em um ambiente real. Em sistemas operacionais, elas têm um processo de execução (que a execução executa) e têm um processo de execução (que a execução deve ser executada). Elas também utilizam múltiplas processos de execução e execução, permitindo que os sistemas sejam executados sem interrupções."
+    },
+    {
+        "question": "O que é normalização em banco de dados? Explique 1FN, 2FN e 3FN.",
+        "after": "Normalização em banco de dados é um processo onde os dados são usados para desenhar imagens em um sistema real, permitindo a eficiência do processo. O normalização pode receber dados mais simples e complexos, incluindo a ordem de trabalho, a ordem de formação e a ordem de formação mais rápida."
+    },
+    {
+        "question": "Como funciona o protocolo TCP e o que é o three-way handshake?",
+        "after": "O TCP (Transmission Control Protocol) é um protocolo de rede de dados que estabelece a conexão entre diferentes dados em forma de estrutura de dados, ao serem sequenciamente. O TCP estabelece uma conexão entre diferentes dados em forma de estrutura de dados, que permite que os dados sejam transmitidos, independentemente do uso de TCP/IP. O protocolo TCP envolve a execução de dados no protocolo TCP/IP, permitindo a execução de dados em forma de estrutura de dados como UDP, ou que permite que o usuário sejam conectado a um TCP/IP."
+    }
+]

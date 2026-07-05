@@ -1,6 +1,9 @@
 # Python
 __pycache__/
 *.py[cod]
+*.py[oc]
+build/
+dist/
 .venv/
 venv/
 
@@ -17,3 +20,20 @@ data/DOMPI-2025/
 # Sistema
 .DS_Store
 Thumbs.db
+
+# arquivos específicos
+lora_qlora_finetuning.ipynb
+smart-chunker.py
+relatorio_q2_q3.md
+q3_comparison.png
+rag.ipynb
+
+# vetoriais
+qdrant_storage/
+
+# modelos pesados
+best_adapter/
+sft_artifacts/
+best_model.pt
+hf_model/
+

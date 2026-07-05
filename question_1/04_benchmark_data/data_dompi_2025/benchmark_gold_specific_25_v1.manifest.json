@@ -1,0 +1,29 @@
+﻿{
+  "gerado_em": "2026-06-22T03:04:23",
+  "descricao": "Benchmark DOMPI especifico com 25 perguntas de resposta curta e evidencias no contexto.",
+  "output": "C:\\Users\\okaza\\Documents\\IA_Dados\\llm_pretraining\\data_dompi_2025\\benchmark_gold_specific_25_v1.jsonl",
+  "fonte": "C:\\Users\\okaza\\Documents\\IA_Dados\\extracoes_dompi_2025.jsonl",
+  "size": 25,
+  "context_chars": 1800,
+  "temas": {
+    "portaria_artigo_1": 3,
+    "campo_objeto": 7,
+    "demonstrativo_fiscal": 1,
+    "campo_contratado": 5,
+    "modalidade_licitacao": 4,
+    "campo_valor": 5
+  },
+  "answer_types": {
+    "span_artigo": 3,
+    "span_campo": 12,
+    "span_titulo": 1,
+    "classe_curta": 4,
+    "valor_monetario": 5
+  },
+  "sem_vazamento": {
+    "intersect_train": 0,
+    "intersect_valid": 0,
+    "intersect_old_benchmark": 0,
+    "intersect_previous_contextual_benchmarks": 0
+  }
+}

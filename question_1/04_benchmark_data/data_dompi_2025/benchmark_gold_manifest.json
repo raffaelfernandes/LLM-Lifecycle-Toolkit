@@ -1,0 +1,38 @@
+﻿{
+  "gerado_em": "2026-06-11T17:23:19",
+  "descricao": "Benchmark gold contextual com perguntas abertas e evidencias extraidas do DOMPI-2025.",
+  "fonte": "extracoes_dompi_2025.jsonl",
+  "base_avaliacao": "test",
+  "benchmark_size": 100,
+  "context_chars": 1600,
+  "sem_multipla_escolha": true,
+  "temas": {
+    "ato_normativo": 29,
+    "objeto_contratacao": 28,
+    "portaria": 25,
+    "relatorio_fiscal": 13,
+    "comemoracao": 4,
+    "ata": 1
+  },
+  "tipos_ato": {
+    "Decreto": 23,
+    "Edital": 11,
+    "Portaria": 26,
+    "LRF_RGF": 13,
+    "Ata": 1,
+    "Lei": 8,
+    "Licitacao": 17,
+    "Contrato": 1
+  },
+  "arquivos": {
+    "benchmark_padrao_treino": "llm_pretraining\\data_dompi_2025\\municipal_gazettes_benchmark.jsonl",
+    "benchmark_gold": "llm_pretraining\\data_dompi_2025\\benchmark_gold_contextual_dompi_2025.jsonl"
+  },
+  "criterios": [
+    "pergunta aberta ancorada no contexto",
+    "resposta de referencia extraida do proprio documento",
+    "evidencia textual salva no item",
+    "documentos selecionados apenas do split de avaliacao",
+    "diversidade de municipios, temas e tipos de ato sempre que possivel"
+  ]
+}

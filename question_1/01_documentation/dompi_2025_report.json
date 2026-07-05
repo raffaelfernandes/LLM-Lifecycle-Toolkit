@@ -1,0 +1,53 @@
+{
+  "gerado_em": "2026-06-11T16:44:14",
+  "repo_id": "gutoportelaa/DOMPI-2025",
+  "snapshot_dir": "C:\\Users\\okaza\\Documents\\IA_Dados\\data\\DOMPI-2025",
+  "extracoes_jsonl": "C:\\Users\\okaza\\Documents\\IA_Dados\\extracoes_dompi_2025.jsonl",
+  "arquivos_parquet": [
+    "C:\\Users\\okaza\\Documents\\IA_Dados\\data\\DOMPI-2025\\data\\raw\\carnaubais.parquet",
+    "C:\\Users\\okaza\\Documents\\IA_Dados\\data\\DOMPI-2025\\data\\raw\\chapada_vale_do_rio_itaim.parquet",
+    "C:\\Users\\okaza\\Documents\\IA_Dados\\data\\DOMPI-2025\\data\\raw\\cocais.parquet",
+    "C:\\Users\\okaza\\Documents\\IA_Dados\\data\\DOMPI-2025\\data\\raw\\entre_rios.parquet",
+    "C:\\Users\\okaza\\Documents\\IA_Dados\\data\\DOMPI-2025\\data\\raw\\mangabeiras.parquet",
+    "C:\\Users\\okaza\\Documents\\IA_Dados\\data\\DOMPI-2025\\data\\raw\\planice_litoran.parquet",
+    "C:\\Users\\okaza\\Documents\\IA_Dados\\data\\DOMPI-2025\\data\\raw\\serra_da_capivara.parquet",
+    "C:\\Users\\okaza\\Documents\\IA_Dados\\data\\DOMPI-2025\\data\\raw\\tabuleiros_alto_parnaiba.parquet",
+    "C:\\Users\\okaza\\Documents\\IA_Dados\\data\\DOMPI-2025\\data\\raw\\vale_do_caninde.parquet",
+    "C:\\Users\\okaza\\Documents\\IA_Dados\\data\\DOMPI-2025\\data\\raw\\vale_do_rio_guaribas.parquet",
+    "C:\\Users\\okaza\\Documents\\IA_Dados\\data\\DOMPI-2025\\data\\raw\\vale_do_sambito.parquet",
+    "C:\\Users\\okaza\\Documents\\IA_Dados\\data\\DOMPI-2025\\data\\raw\\vale_dos_rios_piaui_e_itaueiras.parquet"
+  ],
+  "max_docs": 0,
+  "min_text_chars": 50,
+  "linhas_lidas": 77337,
+  "documentos_validos": 77337,
+  "documentos_descartados": 0,
+  "total_caracteres": 883775389,
+  "por_territorio": {
+    "Carnaubais": 7380,
+    "Chapada Vale Do Rio Itaim": 7496,
+    "Cocais": 12188,
+    "Entre Rios": 1066,
+    "Mangabeiras": 10889,
+    "Planice Litoran": 2723,
+    "Serra Da Capivara": 8747,
+    "Tabuleiros Alto Parnaiba": 7115,
+    "Vale Do Caninde": 4252,
+    "Vale Do Rio Guaribas": 8715,
+    "Vale Do Sambito": 600,
+    "Vale Dos Rios Piaui E Itaueiras": 6166
+  },
+  "por_tipo_ato_normalizado": {
+    "Ata": 592,
+    "Contrato": 4496,
+    "Decreto": 10559,
+    "Edital": 7051,
+    "LRF_RGF": 13345,
+    "Lei": 7710,
+    "Licitacao": 10893,
+    "Portaria": 19660,
+    "Publicacao_oficial": 1481,
+    "Resolucao": 1238,
+    "Termo": 312
+  }
+}

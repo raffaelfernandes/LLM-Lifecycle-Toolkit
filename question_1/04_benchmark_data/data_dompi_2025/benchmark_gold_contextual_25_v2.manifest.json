@@ -1,0 +1,30 @@
+{
+  "gerado_em": "2026-06-22T01:59:28",
+  "descricao": "Benchmark contextual aberto v2 com 25 questoes, criado fora dos splits de treino/validacao/benchmark original.",
+  "output": "C:\\Users\\okaza\\Documents\\IA_Dados\\llm_pretraining\\data_dompi_2025\\benchmark_gold_contextual_25_v2.jsonl",
+  "fonte": "C:\\Users\\okaza\\Documents\\IA_Dados\\extracoes_dompi_2025.jsonl",
+  "base_ids": "test_ids menos train_ids, valid_ids e benchmark_ids originais",
+  "size": 25,
+  "context_chars": 2600,
+  "temas": {
+    "licitacao": 6,
+    "relatorio_fiscal": 2,
+    "ato_normativo": 4,
+    "contratacao": 9,
+    "portaria": 3,
+    "rescisao": 1
+  },
+  "tipos": {
+    "Decreto": 4,
+    "LRF_RGF": 2,
+    "Portaria": 11,
+    "Contrato": 2,
+    "Licitacao": 4,
+    "Edital": 2
+  },
+  "sem_vazamento": {
+    "intersect_train": 0,
+    "intersect_valid": 0,
+    "intersect_old_benchmark": 0
+  }
+}

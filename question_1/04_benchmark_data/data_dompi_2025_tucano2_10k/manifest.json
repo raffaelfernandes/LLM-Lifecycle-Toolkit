@@ -1,0 +1,46 @@
+﻿{
+  "gerado_em": "2026-06-20T16:00:50",
+  "fonte": "C:\\Users\\okaza\\Documents\\IA_Dados\\extracoes_dompi_2025.jsonl",
+  "linhas_validas_antes_deduplicacao": 76649,
+  "documentos_unicos": 67130,
+  "deduplicacao": "Mantido um documento por id_publicacao, escolhendo o texto mais longo quando havia repeticao.",
+  "splits": {
+    "train": 10000,
+    "valid": 1000,
+    "test": 1000
+  },
+  "benchmark_size": 25,
+  "benchmark_ids": 25,
+  "sem_vazamento": {
+    "benchmark_intersect_train": 0,
+    "benchmark_intersect_valid": 0,
+    "benchmark_intersect_test": 0
+  },
+  "treino_usa_perguntas": false,
+  "observacao_treino": "O pre-treino continuado usa apenas texto bruto dos diarios. Perguntas Gold ficam exclusivamente para avaliacao antes/depois.",
+  "amostragem_treino": "Amostra estratificada por territorio e tipo_ato_normalizado, com seed fixa.",
+  "arquivos_corpus": {
+    "train": "C:\\Users\\okaza\\Documents\\IA_Dados\\llm_pretraining\\data_dompi_2025_tucano2_10k\\corpus\\train.txt",
+    "valid": "C:\\Users\\okaza\\Documents\\IA_Dados\\llm_pretraining\\data_dompi_2025_tucano2_10k\\corpus\\valid.txt",
+    "test": "C:\\Users\\okaza\\Documents\\IA_Dados\\llm_pretraining\\data_dompi_2025_tucano2_10k\\corpus\\test.txt"
+  },
+  "benchmark": "C:\\Users\\okaza\\Documents\\IA_Dados\\llm_pretraining\\data_dompi_2025_tucano2_10k\\municipal_gazettes_benchmark.jsonl",
+  "benchmark_gold": "C:\\Users\\okaza\\Documents\\IA_Dados\\llm_pretraining\\data_dompi_2025_tucano2_10k\\benchmark_gold_open_25_dompi_2025.jsonl",
+  "temas_benchmark": {
+    "portaria": 1,
+    "contratacao": 3,
+    "objeto_contratacao": 12,
+    "ato_administrativo": 1,
+    "ato_normativo": 6,
+    "relatorio_fiscal": 2
+  },
+  "tipos_benchmark": {
+    "Portaria": 3,
+    "Licitacao": 12,
+    "Edital": 1,
+    "Lei": 2,
+    "Decreto": 4,
+    "Contrato": 1,
+    "LRF_RGF": 2
+  }
+}

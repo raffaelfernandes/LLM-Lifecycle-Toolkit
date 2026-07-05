@@ -1,0 +1,39 @@
+﻿{
+  "gerado_em": "2026-07-02T13:16:45",
+  "input": "C:\\Users\\okaza\\Documents\\IA_Dados\\llm_pretraining\\data_dompi_2025\\benchmark_gold_contextual_500_candidatos_v1.jsonl",
+  "approved_output": "C:\\Users\\okaza\\Documents\\IA_Dados\\llm_pretraining\\data_dompi_2025\\benchmark_gold_contextual_500_candidatos_v1_auditado.jsonl",
+  "audit_csv": "C:\\Users\\okaza\\Documents\\IA_Dados\\llm_pretraining\\data_dompi_2025\\benchmark_gold_contextual_500_candidates_v1_audit.csv",
+  "total_itens": 500,
+  "aprovados": 352,
+  "reprovados": 148,
+  "criterios": {
+    "min_rubric_coverage": 0.8,
+    "min_answer_token_coverage": 0.55,
+    "min_context_chars": 500,
+    "max_answer_chars": 520
+  },
+  "temas_aprovados": {
+    "relatorio_fiscal": 91,
+    "contratacao": 99,
+    "ato_normativo": 121,
+    "portaria": 37,
+    "licitacao": 3,
+    "rescisao": 1
+  },
+  "tipos_aprovados": {
+    "LRF_RGF": 83,
+    "Decreto": 65,
+    "Licitacao": 31,
+    "Portaria": 97,
+    "Edital": 11,
+    "Lei": 38,
+    "Contrato": 22,
+    "Resolucao": 4,
+    "Publicacao_oficial": 1
+  },
+  "motivos_reprovacao": {
+    "rubrica_pouco_ancorada": 146,
+    "gabarito_pouco_ancorado": 51,
+    "pergunta_gabarito_duplicado": 1
+  }
+}

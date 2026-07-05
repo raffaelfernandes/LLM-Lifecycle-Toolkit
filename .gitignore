@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Dados e caches pesados
+token_cache/
+checkpoint-*/
+data/DOMPI-2025/
+*.parquet
+
+# Saídas temporárias
+*.log
+*.tmp
+
+# Sistema
+.DS_Store
+Thumbs.db

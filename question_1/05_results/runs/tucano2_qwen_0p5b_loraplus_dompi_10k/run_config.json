@@ -1,0 +1,19 @@
+{
+  "model_id": "Polygl0t/Tucano2-qwen-0.5B-Base",
+  "output_dir": "llm_pretraining\\runs\\tucano2_qwen_0p5b_loraplus_dompi_10k",
+  "device": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "use_lora": true,
+  "trainable_parameters": 10092544,
+  "total_parameters": 500891648,
+  "trainable_percent": 2.0149156090540363,
+  "block_size": 512,
+  "stride": 512,
+  "epochs": 3,
+  "planned_steps": 15876,
+  "grad_accum_steps": 16,
+  "learning_rate": 0.0001,
+  "optimizer": "LoRA+",
+  "loraplus_lr_ratio": 16.0
+}

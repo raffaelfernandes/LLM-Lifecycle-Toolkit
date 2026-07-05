@@ -1,0 +1,47 @@
+﻿{
+  "benchmark": "C:\\Users\\okaza\\Documents\\IA_Dados\\llm_pretraining\\data_dompi_2025\\benchmark_gold_specific_25_v1.jsonl",
+  "model_id": "Polygl0t/Tucano2-qwen-0.5B-Base",
+  "device": "cuda",
+  "runs": {
+    "pretrain_final": {
+      "items": 25,
+      "accuracy_or_exact_match": 0.2,
+      "bleu_unigrama": 0.11121258056657267,
+      "token_f1": 0.15583867694463918,
+      "rubric_recall": 0.18583333333333332,
+      "por_formato": {
+        "generate_until": {
+          "items": 25,
+          "correct": 5,
+          "bleu_unigrama": 0.11121258056657267,
+          "token_f1": 0.15583867694463918,
+          "rubric_recall": 0.18583333333333332,
+          "rubric_items": 20,
+          "accuracy": 0.2
+        }
+      },
+      "output": "llm_pretraining\\runs\\specific_benchmark_25_v1\\pretrain_final_benchmark_25_v2.jsonl",
+      "adapter_path": "C:\\Users\\okaza\\Documents\\IA_Dados\\llm_pretraining\\runs\\tucano2_qwen_0p5b_loraplus_dompi_10k\\final"
+    },
+    "sft_v2_balanced": {
+      "items": 25,
+      "accuracy_or_exact_match": 0.24,
+      "bleu_unigrama": 0.2027231195443063,
+      "token_f1": 0.24904648297877682,
+      "rubric_recall": 0.3075,
+      "por_formato": {
+        "generate_until": {
+          "items": 25,
+          "correct": 6,
+          "bleu_unigrama": 0.2027231195443063,
+          "token_f1": 0.24904648297877682,
+          "rubric_recall": 0.3075,
+          "rubric_items": 20,
+          "accuracy": 0.24
+        }
+      },
+      "output": "llm_pretraining\\runs\\specific_benchmark_25_v1\\sft_v2_balanced_benchmark_25_v2.jsonl",
+      "adapter_path": "C:\\Users\\okaza\\Documents\\IA_Dados\\llm_pretraining\\runs\\tucano2_qwen_0p5b_loraplus_dompi_10k_sft_contextual_v2_balanced_250\\final"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+﻿{
+  "gerado_em": "2026-07-02T13:29:51",
+  "descricao": "Conjunto combinado com 12 itens auditados anteriores e 13 itens complementares auditados novos.",
+  "base_12": "C:\\Users\\okaza\\Documents\\IA_Dados\\llm_pretraining\\data_dompi_2025\\benchmark_gold_contextual_corrigido_compacto.jsonl",
+  "complementares_13": "C:\\Users\\okaza\\Documents\\IA_Dados\\llm_pretraining\\data_dompi_2025\\benchmark_gold_contextual_13_complementary_audited_v1.jsonl",
+  "output_25": "C:\\Users\\okaza\\Documents\\IA_Dados\\llm_pretraining\\data_dompi_2025\\benchmark_gold_contextual_25_combined_audited_v1.jsonl",
+  "total": 25,
+  "temas_12": {
+    "portaria": 1,
+    "contratacao": 3,
+    "objeto_contratacao": 5,
+    "ato_normativo": 3
+  },
+  "temas_13": {
+    "ato_normativo": 4,
+    "contratacao": 3,
+    "relatorio_fiscal": 3,
+    "portaria": 3
+  },
+  "temas_25": {
+    "portaria": 4,
+    "contratacao": 6,
+    "objeto_contratacao": 5,
+    "ato_normativo": 7,
+    "relatorio_fiscal": 3
+  },
+  "documentos_repetidos": 0
+}

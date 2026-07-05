@@ -1,0 +1,12 @@
+{
+  "model_id": "Polygl0t/Tucano2-qwen-0.5B-Base",
+  "pretrain_adapter": "C:\\Users\\okaza\\Documents\\IA_Dados\\llm_pretraining\\runs\\tucano2_qwen_0p5b_loraplus_dompi_10k\\final",
+  "output_dir": "C:\\Users\\okaza\\Documents\\IA_Dados\\llm_pretraining\\runs\\tucano2_qwen_0p5b_loraplus_dompi_10k_sft_contextual_v2_balanced_250",
+  "device": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "max_length": 1024,
+  "benchmark_block_size": 2048,
+  "epochs": 2,
+  "planned_steps": 250,
+  "grad_accum_steps": 8,
+  "learning_rate": 8e-05
+}

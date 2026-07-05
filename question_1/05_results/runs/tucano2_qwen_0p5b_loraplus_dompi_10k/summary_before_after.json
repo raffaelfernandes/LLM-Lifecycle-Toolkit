@@ -1,0 +1,87 @@
+{
+  "before": {
+    "phase": "before_training",
+    "global_step": 0,
+    "valid": {
+      "cross_entropy": 2.651465109859904,
+      "perplexity": 14.174791065528122,
+      "token_accuracy": 0.5340631115459883,
+      "tokens": 49056,
+      "batches": 96
+    },
+    "test": {
+      "cross_entropy": 2.5138933829342327,
+      "perplexity": 12.35293124808198,
+      "token_accuracy": 0.5421762883235486,
+      "tokens": 49056,
+      "batches": 96
+    },
+    "benchmark": {
+      "items": 25,
+      "accuracy_or_exact_match": 0.04,
+      "bleu_unigrama": 0.20634546213488558,
+      "token_f1": 0.24657610275797842,
+      "rubric_recall": 0.22857142857142856,
+      "por_formato": {
+        "generate_until": {
+          "items": 25,
+          "correct": 1,
+          "bleu_unigrama": 0.20634546213488558,
+          "token_f1": 0.24657610275797842,
+          "rubric_recall": 0.22857142857142856,
+          "rubric_items": 25,
+          "accuracy": 0.04
+        }
+      },
+      "output": "llm_pretraining\\runs\\tucano2_qwen_0p5b_loraplus_dompi_10k\\benchmark_outputs\\before.jsonl"
+    },
+    "time": "2026-06-20T18:57:58"
+  },
+  "after": {
+    "phase": "after_training",
+    "global_step": 15873,
+    "valid": {
+      "cross_entropy": 1.3438203381374478,
+      "perplexity": 3.833661447881051,
+      "token_accuracy": 0.7199527071102414,
+      "tokens": 49056,
+      "batches": 96
+    },
+    "test": {
+      "cross_entropy": 1.2847589491090428,
+      "perplexity": 3.613796743293511,
+      "token_accuracy": 0.7253954664057404,
+      "tokens": 49056,
+      "batches": 96
+    },
+    "benchmark": {
+      "items": 25,
+      "accuracy_or_exact_match": 0.0,
+      "bleu_unigrama": 0.07674684718531154,
+      "token_f1": 0.11839857763565197,
+      "rubric_recall": 0.09733333333333334,
+      "por_formato": {
+        "generate_until": {
+          "items": 25,
+          "correct": 0,
+          "bleu_unigrama": 0.07674684718531154,
+          "token_f1": 0.11839857763565197,
+          "rubric_recall": 0.09733333333333334,
+          "rubric_items": 25,
+          "accuracy": 0.0
+        }
+      },
+      "output": "llm_pretraining\\runs\\tucano2_qwen_0p5b_loraplus_dompi_10k\\benchmark_outputs\\after.jsonl"
+    },
+    "final_model": "llm_pretraining\\runs\\tucano2_qwen_0p5b_loraplus_dompi_10k\\final",
+    "time": "2026-06-21T21:31:15"
+  },
+  "delta": {
+    "valid_cross_entropy": -1.307644771722456,
+    "valid_perplexity": -10.341129617647072,
+    "valid_token_accuracy": 0.1858895955642531,
+    "test_cross_entropy": -1.22913443382519,
+    "test_perplexity": -8.739134504788469,
+    "test_token_accuracy": 0.1832191780821918
+  }
+}

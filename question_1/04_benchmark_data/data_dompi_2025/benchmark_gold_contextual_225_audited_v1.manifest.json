@@ -1,0 +1,29 @@
+﻿{
+  "gerado_em": "2026-07-02T13:17:10",
+  "descricao": "Benchmark contextual final com 225 perguntas aprovadas por auditoria programatica de ancoragem no contexto.",
+  "fonte_aprovados": "C:\\Users\\okaza\\Documents\\IA_Dados\\llm_pretraining\\data_dompi_2025\\benchmark_gold_contextual_500_candidatos_v1_auditado.jsonl",
+  "output": "C:\\Users\\okaza\\Documents\\IA_Dados\\llm_pretraining\\data_dompi_2025\\benchmark_gold_contextual_225_audited_v1.jsonl",
+  "size": 225,
+  "criterio_selecao": "round-robin por tema a partir dos itens aprovados na auditoria; documentos duplicados removidos",
+  "temas": {
+    "rescisao": 1,
+    "licitacao": 3,
+    "portaria": 37,
+    "relatorio_fiscal": 62,
+    "contratacao": 61,
+    "ato_normativo": 61
+  },
+  "tipos": {
+    "Licitacao": 23,
+    "Edital": 7,
+    "Portaria": 71,
+    "LRF_RGF": 55,
+    "Decreto": 36,
+    "Lei": 19,
+    "Contrato": 12,
+    "Resolucao": 2
+  },
+  "sem_vazamento": {
+    "observacao": "Os candidatos foram gerados a partir de test_ids menos train_ids, valid_ids e benchmark_ids originais; manifestos de origem registram intersecao zero."
+  }
+}

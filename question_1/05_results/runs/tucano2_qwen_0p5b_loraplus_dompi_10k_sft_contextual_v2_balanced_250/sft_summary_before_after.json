@@ -1,0 +1,69 @@
+{
+  "before": {
+    "phase": "before_sft",
+    "global_step": 0,
+    "valid_sft": {
+      "cross_entropy": 1.3704854387393604,
+      "perplexity": 3.9372615309102725,
+      "tokens": 2923,
+      "batches": 64
+    },
+    "benchmark": {
+      "items": 12,
+      "accuracy_or_exact_match": 0.0,
+      "bleu_unigrama": 0.09205292231995732,
+      "token_f1": 0.12829735426918656,
+      "rubric_recall": 0.10833333333333334,
+      "por_formato": {
+        "generate_until": {
+          "items": 12,
+          "correct": 0,
+          "bleu_unigrama": 0.09205292231995732,
+          "token_f1": 0.12829735426918656,
+          "rubric_recall": 0.10833333333333334,
+          "rubric_items": 12,
+          "accuracy": 0.0
+        }
+      },
+      "output": "C:\\Users\\okaza\\Documents\\IA_Dados\\llm_pretraining\\runs\\tucano2_qwen_0p5b_loraplus_dompi_10k_sft_contextual_v2_balanced_250\\benchmark_outputs\\before_sft.jsonl"
+    },
+    "time": "2026-06-22T00:51:14"
+  },
+  "after": {
+    "phase": "after_sft",
+    "global_step": 250,
+    "valid_sft": {
+      "cross_entropy": 0.7381037514503705,
+      "perplexity": 2.091964865673213,
+      "tokens": 2923,
+      "batches": 64
+    },
+    "benchmark": {
+      "items": 12,
+      "accuracy_or_exact_match": 0.08333333333333333,
+      "bleu_unigrama": 0.07263367341528591,
+      "token_f1": 0.1779707136001748,
+      "rubric_recall": 0.11944444444444442,
+      "por_formato": {
+        "generate_until": {
+          "items": 12,
+          "correct": 1,
+          "bleu_unigrama": 0.07263367341528591,
+          "token_f1": 0.1779707136001748,
+          "rubric_recall": 0.11944444444444442,
+          "rubric_items": 12,
+          "accuracy": 0.08333333333333333
+        }
+      },
+      "output": "C:\\Users\\okaza\\Documents\\IA_Dados\\llm_pretraining\\runs\\tucano2_qwen_0p5b_loraplus_dompi_10k_sft_contextual_v2_balanced_250\\benchmark_outputs\\after_sft.jsonl"
+    },
+    "final_model": "C:\\Users\\okaza\\Documents\\IA_Dados\\llm_pretraining\\runs\\tucano2_qwen_0p5b_loraplus_dompi_10k_sft_contextual_v2_balanced_250\\final",
+    "time": "2026-06-22T01:26:54"
+  },
+  "delta": {
+    "valid_sft_cross_entropy": -0.6323816872889898,
+    "valid_sft_perplexity": -1.8452966652370595,
+    "benchmark_accuracy_or_exact_match": 0.08333333333333333,
+    "benchmark_bleu_unigrama": -0.019419248904671407
+  }
+}

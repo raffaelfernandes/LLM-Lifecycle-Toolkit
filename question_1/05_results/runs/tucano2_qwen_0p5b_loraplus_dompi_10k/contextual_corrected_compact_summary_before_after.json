@@ -1,0 +1,59 @@
+{
+  "phase": "benchmark_contextual_corrigido_compacto_before_after",
+  "time": "2026-06-21T22:59:53",
+  "model_id": "Polygl0t/Tucano2-qwen-0.5B-Base",
+  "adapter": "C:\\Users\\okaza\\Documents\\IA_Dados\\llm_pretraining\\runs\\tucano2_qwen_0p5b_loraplus_dompi_10k\\final",
+  "benchmark_path": "C:\\Users\\okaza\\Documents\\IA_Dados\\llm_pretraining\\data_dompi_2025\\benchmark_gold_contextual_corrigido_compacto.jsonl",
+  "block_size": 2048,
+  "max_new_tokens": 64,
+  "before": {
+    "items": 12,
+    "accuracy_or_exact_match": 0.0,
+    "bleu_unigrama": 0.22466537227907446,
+    "token_f1": 0.26756695236342504,
+    "rubric_recall": 0.17777777777777778,
+    "por_formato": {
+      "generate_until": {
+        "items": 12,
+        "correct": 0,
+        "bleu_unigrama": 0.22466537227907446,
+        "token_f1": 0.26756695236342504,
+        "rubric_recall": 0.17777777777777778,
+        "rubric_items": 12,
+        "accuracy": 0.0
+      }
+    },
+    "output": "C:\\Users\\okaza\\Documents\\IA_Dados\\llm_pretraining\\runs\\tucano2_qwen_0p5b_loraplus_dompi_10k\\benchmark_outputs_contextual_corrigido_compacto\\before_corrigido_compacto.jsonl",
+    "seconds": 51.728437423706055
+  },
+  "after": {
+    "items": 12,
+    "accuracy_or_exact_match": 0.0,
+    "bleu_unigrama": 0.09664159550254241,
+    "token_f1": 0.13134243490385086,
+    "rubric_recall": 0.10833333333333334,
+    "por_formato": {
+      "generate_until": {
+        "items": 12,
+        "correct": 0,
+        "bleu_unigrama": 0.09664159550254241,
+        "token_f1": 0.13134243490385086,
+        "rubric_recall": 0.10833333333333334,
+        "rubric_items": 12,
+        "accuracy": 0.0
+      }
+    },
+    "output": "C:\\Users\\okaza\\Documents\\IA_Dados\\llm_pretraining\\runs\\tucano2_qwen_0p5b_loraplus_dompi_10k\\benchmark_outputs_contextual_corrigido_compacto\\after_corrigido_compacto.jsonl",
+    "seconds": 120.6900589466095
+  },
+  "delta": {
+    "accuracy_or_exact_match": 0.0,
+    "bleu_unigrama": -0.12802377677653204,
+    "token_f1": -0.13622451745957417,
+    "rubric_recall": -0.06944444444444445
+  },
+  "outputs": {
+    "before": "C:\\Users\\okaza\\Documents\\IA_Dados\\llm_pretraining\\runs\\tucano2_qwen_0p5b_loraplus_dompi_10k\\benchmark_outputs_contextual_corrigido_compacto\\before_corrigido_compacto.jsonl",
+    "after": "C:\\Users\\okaza\\Documents\\IA_Dados\\llm_pretraining\\runs\\tucano2_qwen_0p5b_loraplus_dompi_10k\\benchmark_outputs_contextual_corrigido_compacto\\after_corrigido_compacto.jsonl"
+  }
+}

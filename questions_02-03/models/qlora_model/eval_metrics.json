@@ -1,0 +1,11 @@
+{
+  "test_loss": 2.4222,
+  "test_ppl": 11.27,
+  "responses": {
+    "O que é uma árvore AVL e quais são suas propriedades de balanceamento?": "Este árvore AVL é uma árvore é um problema de balanceamento, como onde cada elemento é um tipo de um elemento. Em contraste, uma árvore AVL é uma árvore de forma de forma eficiente ao cada elemento, onde o nó seja usado é um tipo de elemento.",
+    "Explique o algoritmo QuickSort e sua complexidade no melhor e pior caso.": "Eles criações são as operações de sorta de dados, utilizadas e métodos de sorta e as números de sorta. Essas operações podem ser usadas para descrever uma parte do código, como são ou vários mais complexidades.",
+    "Qual a diferença entre processos e threads em sistemas operacionais?": "processos são próprios que permitem o que os processos são mais fácil de nenhum diferentes valores, enquanto threads são mais fáciles, enquanto acesso o processo de uma memória e eficiente. Em contraste, acesso o processo de uma memória é usada para resolver o processo de uma memória, permitindo que os processos são mais fáciles e são mais fáciles.",
+    "O que é normalização em banco de dados? Explique 1FN, 2FN e 3FN.": "1FN é o código de dados, pois criar cada vértice de uma código. 2FN é o código de dados, pois criar cada vértice de uma código. 3FN é o código de dados, pois criar cada vértice de uma código. Este é normalização é usado para implementar a código e a cálculos de dados.",
+    "Como funciona o protocolo TCP e o que é o three-way handshake?": "Como TCP e o que é o three-way handshake, o TCP estão usada para: (1) Transferring control to the client (2) Receiving control back to the client (3) Interrupting the client. O TCP é um protocolo de uso de uma variável de que o client pode ser usado para criar control para a cada término."
+  }
+}

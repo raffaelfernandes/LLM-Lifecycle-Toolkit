@@ -1,0 +1,19 @@
+{
+  "model": "gpt2-large",
+  "epochs": 3,
+  "batch_size": 2,
+  "grad_accum_steps": 2,
+  "effective_batch": 4,
+  "learning_rate": 5e-05,
+  "baseline_val_loss": 3.4593,
+  "baseline_ppl": 31.8,
+  "best_val_loss": 2.0485,
+  "test_loss": 1.9999,
+  "test_ppl": 7.39,
+  "ppl_improvement_%": 76.8,
+  "training_time_min": 198.7,
+  "total_tokens_seen": 395580,
+  "train_samples": 850,
+  "val_samples": 100,
+  "test_samples": 50
+}

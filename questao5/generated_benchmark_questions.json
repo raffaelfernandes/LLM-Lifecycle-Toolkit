@@ -1,0 +1,272 @@
+[
+  {
+    "question": "Qual é o valor numérico que aparece duas vezes no texto fornecido?",
+    "ground_truth": "7.523.685,29",
+    "contexts": [
+      "| 7.523.685,29                                                                                                                                                                                      | 3. 119.598 ,11                                                                                                                                                                                    | 15.595.378, 71                                                                                                                                                                                    | 7.523.685,29                                                                                                                                                                                      | 15.541.482,87"
+    ],
+    "metadata": {
+      "territorio": "vale_do_sambito",
+      "municipio": "Santa Cruz Dos Milagres",
+      "tipo_ato": "LRF",
+      "data_publicacao": "01/12/2025",
+      "ano": 2025,
+      "paginas_originais": 2
+    }
+  },
+  {
+    "question": "Qual é a última sequência numérica apresentada na lista de valores do contexto?",
+    "ground_truth": "15.541.482,87",
+    "contexts": [
+      "| 7.523.685,29                                                                                                                                                                                      | 3. 119.598 ,11                                                                                                                                                                                    | 15.595.378, 71                                                                                                                                                                                    | 7.523.685,29                                                                                                                                                                                      | 15.541.482,87"
+    ],
+    "metadata": {
+      "territorio": "vale_do_sambito",
+      "municipio": "Santa Cruz Dos Milagres",
+      "tipo_ato": "LRF",
+      "data_publicacao": "01/12/2025",
+      "ano": 2025,
+      "paginas_originais": 2
+    }
+  },
+  {
+    "question": "Quem será considerado participante para efeito de remanejamento segundo o item 3.6.2?",
+    "ground_truth": "O órgão ou entidade gerenciadora q ue estimou quantidades que  pretende contratar",
+    "contexts": [
+      "ou  entidade participante para órgão  ou entidade não  participante. 3.6.2 O  órgão  ou entidade  gerenciadora q ue estimou quantidades que  pretende contratar será  considerado também como participante para efeito de remanejamento. 3.6.3  Para d o  item 3.6, caberá  ao órgão  ou  entidade  gerenciadora  autorizar o  remanejamento  solicitado,  com  a redução do quantitativo inicialmente informado pelo órgão o u entidade participante, desde q ue haja prév ia anuê ncia do órgão ou da entidade que vier a sofrer redução dos quantitativos informados. 3.6.4  Na  hipótese  da  compra  centralizada,  não  havendo  indicação  pelo  6 rgão  o u  entidade  gerenciadora  dos quantitativos dos participantes da compra centralizada, nos termos do item 3.6.2,  a  distribuição das quantidades"
+    ],
+    "metadata": {
+      "territorio": "entre_rios",
+      "municipio": "Pau D'Arco Do Piaui",
+      "tipo_ato": "Licitação",
+      "data_publicacao": "01/12/2025",
+      "ano": 2025,
+      "paginas_originais": 25
+    }
+  },
+  {
+    "question": "Quem deve autorizar o remanejamento solicitado segundo o item 3.6.3?",
+    "ground_truth": "o órgão ou entidade gerenciadora",
+    "contexts": [
+      "ou  entidade participante para órgão  ou entidade não  participante. 3.6.2 O  órgão  ou entidade  gerenciadora q ue estimou quantidades que  pretende contratar será  considerado também como participante para efeito de remanejamento. 3.6.3  Para d o  item 3.6, caberá  ao órgão  ou  entidade  gerenciadora  autorizar o  remanejamento  solicitado,  com  a redução do quantitativo inicialmente informado pelo órgão o u entidade participante, desde q ue haja prév ia anuê ncia do órgão ou da entidade que vier a sofrer redução dos quantitativos informados. 3.6.4  Na  hipótese  da  compra  centralizada,  não  havendo  indicação  pelo  6 rgão  o u  entidade  gerenciadora  dos quantitativos dos participantes da compra centralizada, nos termos do item 3.6.2,  a  distribuição das quantidades"
+    ],
+    "metadata": {
+      "territorio": "entre_rios",
+      "municipio": "Pau D'Arco Do Piaui",
+      "tipo_ato": "Licitação",
+      "data_publicacao": "01/12/2025",
+      "ano": 2025,
+      "paginas_originais": 25
+    }
+  },
+  {
+    "question": "Qual é o identificador do participante da empresa PAC SAUDE DISTRIBUIDORA LTDA no edital?",
+    "ground_truth": "Participante 3",
+    "contexts": [
+      "| PAC SAUDE DISTRIBUIDORA LTDA                          | Participante 3  | 31 .317.338/0001-03       | R$ 11 2,87        | R$ 112,87      | PAPER CLEAN / PAPER CLEAN                                                                                            | Não      |\n| REMAC MAIS DISTRIBUIDORA LTDA                         | Participante 6  | 26.113.505/0001·56        | R$ 131,99         | R$113,59       | AMED                                                                                                                 | Não      |\n| CIRCULO DISTRIBUIDORA DE MEDICAMENTOS E MATHOSP. LTDA | Participante 10 | 16.703.014/0001-01        | R$ 114,59         | R$ 114,59      | MARCA: AMED - ANVISA: RDC 185/2001                                                                                   | Não      |"
+    ],
+    "metadata": {
+      "territorio": "vale_do_sambito",
+      "municipio": "Aroazes",
+      "tipo_ato": "Edital",
+      "data_publicacao": "04/12/2025",
+      "ano": 2025,
+      "paginas_originais": 237
+    }
+  },
+  {
+    "question": "Qual é o identificador do participante da empresa CIRCULO DISTRIBUIDORA DE MEDICAMENTOS E MATHOSP. LTDA no edital?",
+    "ground_truth": "Participante 10",
+    "contexts": [
+      "| PAC SAUDE DISTRIBUIDORA LTDA                          | Participante 3  | 31 .317.338/0001-03       | R$ 11 2,87        | R$ 112,87      | PAPER CLEAN / PAPER CLEAN                                                                                            | Não      |\n| REMAC MAIS DISTRIBUIDORA LTDA                         | Participante 6  | 26.113.505/0001·56        | R$ 131,99         | R$113,59       | AMED                                                                                                                 | Não      |\n| CIRCULO DISTRIBUIDORA DE MEDICAMENTOS E MATHOSP. LTDA | Participante 10 | 16.703.014/0001-01        | R$ 114,59         | R$ 114,59      | MARCA: AMED - ANVISA: RDC 185/2001                                                                                   | Não      |"
+    ],
+    "metadata": {
+      "territorio": "vale_do_sambito",
+      "municipio": "Aroazes",
+      "tipo_ato": "Edital",
+      "data_publicacao": "04/12/2025",
+      "ano": 2025,
+      "paginas_originais": 237
+    }
+  },
+  {
+    "question": "Qual é o nome da prefeitura mencionado no documento?",
+    "ground_truth": "PREFEITURA MUNICIPAL DE PAU D'ARCO",
+    "contexts": [
+      "Fiorilli  se Ltda - Software\n\n<!-- image -->\n\n## PREFEITURA MUNICIPAL DE PAU D'ARCO\n\n04.218.211/0001-56\n\nANEXO 1- PLANEJAMENTO ORÇAMEN TÁRIOPPA\n\nFONTES DE FINANCIAMENTO DOS PROGRAMAS GOVERNAMENTAIS(CONSOLIDADO)"
+    ],
+    "metadata": {
+      "territorio": "entre_rios",
+      "municipio": "Pau D'Arco Do Piaui",
+      "tipo_ato": "Lei",
+      "data_publicacao": "05/12/2025",
+      "ano": 2025,
+      "paginas_originais": 77
+    }
+  },
+  {
+    "question": "Qual número de identificação fiscal está listado na parte superior do documento?",
+    "ground_truth": "04.218.211/0001-56",
+    "contexts": [
+      "Fiorilli  se Ltda - Software\n\n<!-- image -->\n\n## PREFEITURA MUNICIPAL DE PAU D'ARCO\n\n04.218.211/0001-56\n\nANEXO 1- PLANEJAMENTO ORÇAMEN TÁRIOPPA\n\nFONTES DE FINANCIAMENTO DOS PROGRAMAS GOVERNAMENTAIS(CONSOLIDADO)"
+    ],
+    "metadata": {
+      "territorio": "entre_rios",
+      "municipio": "Pau D'Arco Do Piaui",
+      "tipo_ato": "Lei",
+      "data_publicacao": "05/12/2025",
+      "ano": 2025,
+      "paginas_originais": 77
+    }
+  },
+  {
+    "question": "Qual é o valor das despesas correntes?",
+    "ground_truth": "790.000,00",
+    "contexts": [
+      "| 3 OUTRAS DESPESAS CORRENTES 790.000,00"
+    ],
+    "metadata": {
+      "territorio": "entre_rios",
+      "municipio": "Municipal",
+      "tipo_ato": "Contrato",
+      "data_publicacao": "2025",
+      "ano": 2025,
+      "paginas_originais": 49
+    }
+  },
+  {
+    "question": "Como são classificadas as despesas do item número 3?",
+    "ground_truth": "OUTRAS DESPESAS CORRENTES",
+    "contexts": [
+      "| 3 OUTRAS DESPESAS CORRENTES 790.000,00"
+    ],
+    "metadata": {
+      "territorio": "entre_rios",
+      "municipio": "Municipal",
+      "tipo_ato": "Contrato",
+      "data_publicacao": "2025",
+      "ano": 2025,
+      "paginas_originais": 49
+    }
+  },
+  {
+    "question": "Qual é o valor registrado para a linha 'Alienação de Bens'?",
+    "ground_truth": "40.000,00",
+    "contexts": [
+      "| Amortização de Emprést imos (IX)                                                            | 0,00           | 0,00                      |\n| Alienação de Bens                                                                           | 40.000,00      | 0,00                      |\n| Receitas de Alienação de Investimentos Te~rá rios (X)                                       | 0,00           | 0,00                      |\n| Receitas de Alienação de Investimentos Pennanentes (XI)                                     | 0,00           | 0,00                      |\n| Outras Alienações de Bens                                                                   | 4-0.000,00     | 0,00                      |\n| Transferênc ias de Capital                                                                  | 220.000,00     | 0,00                      |\n| Convên ios                                                                                  | 210.000,00     | 0,00                      |"
+    ],
+    "metadata": {
+      "territorio": "vale_do_sambito",
+      "municipio": "Aroazes",
+      "tipo_ato": "LRF",
+      "data_publicacao": "01/12/2025",
+      "ano": 2025,
+      "paginas_originais": 3
+    }
+  },
+  {
+    "question": "Qual é o município onde este documento foi publicado?",
+    "ground_truth": "Aroazes",
+    "contexts": [
+      "| Amortização de Emprést imos (IX)                                                            | 0,00           | 0,00                      |\n| Alienação de Bens                                                                           | 40.000,00      | 0,00                      |\n| Receitas de Alienação de Investimentos Te~rá rios (X)                                       | 0,00           | 0,00                      |\n| Receitas de Alienação de Investimentos Pennanentes (XI)                                     | 0,00           | 0,00                      |\n| Outras Alienações de Bens                                                                   | 4-0.000,00     | 0,00                      |\n| Transferênc ias de Capital                                                                  | 220.000,00     | 0,00                      |\n| Convên ios                                                                                  | 210.000,00     | 0,00                      |"
+    ],
+    "metadata": {
+      "territorio": "vale_do_sambito",
+      "municipio": "Aroazes",
+      "tipo_ato": "LRF",
+      "data_publicacao": "01/12/2025",
+      "ano": 2025,
+      "paginas_originais": 3
+    }
+  },
+  {
+    "question": "Qual é a descrição do item listado no documento?",
+    "ground_truth": "EQUIPAMENTOS E MATERIAL PERMANENTE",
+    "contexts": [
+      "| 4.4. 90.52                                       | EQUIPAMENTOS E MATERIAL PERMANENTE                                                                                    | 1.551 .00.999.000                                                                           | 3.639,40                                                                                    | 1                                                                                           |                                                                                             |                                                                                             |"
+    ],
+    "metadata": {
+      "territorio": "entre_rios",
+      "municipio": "Santo Antonio Dos Milagres",
+      "tipo_ato": "Contrato",
+      "data_publicacao": "17/12/2025",
+      "ano": 2025,
+      "paginas_originais": 47
+    }
+  },
+  {
+    "question": "Quanto foi o valor indicado para este item na tabela?",
+    "ground_truth": "3.639,40",
+    "contexts": [
+      "| 4.4. 90.52                                       | EQUIPAMENTOS E MATERIAL PERMANENTE                                                                                    | 1.551 .00.999.000                                                                           | 3.639,40                                                                                    | 1                                                                                           |                                                                                             |                                                                                             |"
+    ],
+    "metadata": {
+      "territorio": "entre_rios",
+      "municipio": "Santo Antonio Dos Milagres",
+      "tipo_ato": "Contrato",
+      "data_publicacao": "17/12/2025",
+      "ano": 2025,
+      "paginas_originais": 47
+    }
+  },
+  {
+    "question": "Qual é o número do lote identificado no documento?",
+    "ground_truth": "Lote-252",
+    "contexts": [
+      "## Lote-252\n\nCritério  d e  portlclpeção :  Ampla  p articipação\n\nCrlt-\"rlo de fech a m e nto:  Unllárlo\n\npara o  ltom\n\nPreço  de refer•ncl•: A$ 4.900,00\n\nFoao do loto/ltom ;  Encorrodo\n\nSitu açã o :  Homologa do\n\nllem- 1 :  Ooecrloao do lloon  :  LANCETAS OE SEGURANCA.  Lenoo1e Melorlal  Lêonlne :  Ao&lt;&gt; lno·ldd.,ol.Ponle  Allede,T rlleoolede. Uso:\n\nDu-r16vul. Cuuaglurholio,u,  Adlolonul·: E · t6 ril, Embul\"\"um lndlvlduul, Tipo: Uttru Flnu\n\n<!-- image -->"
+    ],
+    "metadata": {
+      "territorio": "vale_do_sambito",
+      "municipio": "Aroazes",
+      "tipo_ato": "Edital",
+      "data_publicacao": "04/12/2025",
+      "ano": 2025,
+      "paginas_originais": 133
+    }
+  },
+  {
+    "question": "Em que data foi publicado este edital de licitação?",
+    "ground_truth": "04/12/2025",
+    "contexts": [
+      "## Lote-252\n\nCritério  d e  portlclpeção :  Ampla  p articipação\n\nCrlt-\"rlo de fech a m e nto:  Unllárlo\n\npara o  ltom\n\nPreço  de refer•ncl•: A$ 4.900,00\n\nFoao do loto/ltom ;  Encorrodo\n\nSitu açã o :  Homologa do\n\nllem- 1 :  Ooecrloao do lloon  :  LANCETAS OE SEGURANCA.  Lenoo1e Melorlal  Lêonlne :  Ao&lt;&gt; lno·ldd.,ol.Ponle  Allede,T rlleoolede. Uso:\n\nDu-r16vul. Cuuaglurholio,u,  Adlolonul·: E · t6 ril, Embul\"\"um lndlvlduul, Tipo: Uttru Flnu\n\n<!-- image -->"
+    ],
+    "metadata": {
+      "territorio": "vale_do_sambito",
+      "municipio": "Aroazes",
+      "tipo_ato": "Edital",
+      "data_publicacao": "04/12/2025",
+      "ano": 2025,
+      "paginas_originais": 133
+    }
+  },
+  {
+    "question": "Qual é o período de execução orçamentária mencionado no documento?",
+    "ground_truth": "Janeiro a Outubro 2025",
+    "contexts": [
+      "<!-- image -->\n\n## ld:0471C1C7B53927BD\n\n## PREFEITURA MUNICIPAL DE PAU D  ARCO\n\n## RELATÓRIO  RESUMIDO DA EXECUÇÃO ORÇAMENTÁRIA\n\n## BALANÇO  ORÇ AMENTÁRIO\n\nORÇAMENTOS  FISCAIS E DA SEGURIDADE SOCIAL\n\n1 de 3\n\nPERIODO: Janeiro a Outubro 2025/BIMESTRE  Setembro - Outubro"
+    ],
+    "metadata": {
+      "territorio": "entre_rios",
+      "municipio": "Pau D'Arco Do Piaui",
+      "tipo_ato": "LRF",
+      "data_publicacao": "01/12/2025",
+      "ano": 2025,
+      "paginas_originais": 1
+    }
+  },
+  {
+    "question": "Qual é o nome da prefeitura responsável pela publicação?",
+    "ground_truth": "PREFEITURA MUNICIPAL DE PAU D ARCO",
+    "contexts": [
+      "<!-- image -->\n\n## ld:0471C1C7B53927BD\n\n## PREFEITURA MUNICIPAL DE PAU D  ARCO\n\n## RELATÓRIO  RESUMIDO DA EXECUÇÃO ORÇAMENTÁRIA\n\n## BALANÇO  ORÇ AMENTÁRIO\n\nORÇAMENTOS  FISCAIS E DA SEGURIDADE SOCIAL\n\n1 de 3\n\nPERIODO: Janeiro a Outubro 2025/BIMESTRE  Setembro - Outubro"
+    ],
+    "metadata": {
+      "territorio": "entre_rios",
+      "municipio": "Pau D'Arco Do Piaui",
+      "tipo_ato": "LRF",
+      "data_publicacao": "01/12/2025",
+      "ano": 2025,
+      "paginas_originais": 1
+    }
+  }
+]

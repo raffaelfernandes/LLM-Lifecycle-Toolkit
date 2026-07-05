@@ -1,0 +1,33 @@
+{
+  "baseline": {
+    "test_loss": 3.5938,
+    "test_ppl": 36.37,
+    "params_treinaveis": "0 (sem treino)",
+    "tempo_min": 0,
+    "vram_gb": 3.1
+  },
+  "sft_completo": {
+    "test_loss": 1.9999,
+    "test_ppl": 7.39,
+    "params_treinaveis": "774 M",
+    "tempo_min": 198.7,
+    "vram_gb": 5.5
+  },
+  "lora": {
+    "test_loss": 2.4218,
+    "test_ppl": 11.27,
+    "params_treinaveis": "11796 k",
+    "lora_r": 16,
+    "tempo_min": 139.5,
+    "vram_gb": 3.2
+  },
+  "qlora": {
+    "test_loss": 2.4222,
+    "test_ppl": 11.27,
+    "params_treinaveis": "11796 k",
+    "lora_r": 16,
+    "quant": "nf4 + double_quant",
+    "tempo_min": 253.5,
+    "vram_gb": 1.8
+  }
+}

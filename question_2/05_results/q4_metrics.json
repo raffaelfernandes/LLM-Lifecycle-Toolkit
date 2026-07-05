@@ -1,0 +1,23 @@
+[
+  {
+    "Variante":"Teacher 7B",
+    "PPL":5.85,
+    "ROUGE-L":0.212,
+    "Cobertura":0.675,
+    "% PT":100.0
+  },
+  {
+    "Variante":"Student 0.5B (base)",
+    "PPL":6.52,
+    "ROUGE-L":0.175,
+    "Cobertura":0.559,
+    "% PT":100.0
+  },
+  {
+    "Variante":"Student 0.5B (destilado)",
+    "PPL":4.52,
+    "ROUGE-L":0.226,
+    "Cobertura":0.409,
+    "% PT":100.0
+  }
+]

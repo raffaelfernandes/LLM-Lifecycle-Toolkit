@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "pergunta": "Qual é a diferença entre uma projeção paralela e uma perspectiva?",
+    "resposta_referencia": "A principal diferença entre uma projeção paralela e uma perspectiva está em como elas representam o tamanho dos objetos. Na projeção paralela, as dimensões relativas do objeto são preservadas, o que é útil para obter vistas precisas de diferentes lados do objeto. Por outro lado, a projeção perspectiva simula a visão do olho humano ou câmera fotográfica, onde objetos próximos ao plano de projeção aparecem maiores e objetos distantes menores.",
+    "categoria": "qual_quais"
+  },
+  {
+    "id": 2,
+    "pergunta": "Qual a diferença entre análise qualitativa e quantitativa de dados?",
+    "resposta_referencia": "A análise qualitativa baseia-se em interpretação e compreensão do significado dos dados, geralmente usando métodos não-matemáticos. A análise quantitativa usa cálculos matemáticos para extrair informações numéricas. Ambos podem ser utilizados juntos dependendo da situação.",
+    "categoria": "qual_quais"
+  },
+  {
+    "id": 3,
+    "pergunta": "Como representar uma função matemática em Ciência da Computação?",
+    "resposta_referencia": "Em Ciência da Computação, uma função pode ser representada de várias maneiras. Podemos usar notações matemáticas como f: X → Y, onde X é o domínio e Y é o contradomínio. Também podemos utilizar expressões algébricas, como f(x) = 2x para x ∈ {1, 2, 3}, ou formatos tabulares que exibem pares ordenados (x, f(x)).",
+    "categoria": "como_funciona"
+  },
+  {
+    "id": 4,
+    "pergunta": "Qual é a diferença entre instruções privilegiadas e não privilegiadas?",
+    "resposta_referencia": "Instruções privilegiadas são comandos que só podem ser executados por processos com privilégios elevados, geralmente o núcleo do sistema operacional. Eles têm acesso direto ao hardware e permitem a modificação de estados críticos do sistema. Instruções não privilegiadas, por outro lado, são comandos que podem ser executados por qualquer processo, sendo limitadas em suas capacidades para interagir diretamente com o hardware.",
+    "categoria": "qual_quais"
+  },
+  {
+    "id": 5,
+    "pergunta": "O que é MOM (Message Oriented Middleware)?",
+    "resposta_referencia": "MOM, ou Message Oriented Middleware, é um modelo de comunicação baseado em filas de mensagens que desacopla produtores e consumidores. Essa arquitetura permite que os produtores enviem mensagens para uma fila sem precisar se preocupar com o estado do consumidor. Isso garante a ordem dos dados e a entrega confiável das mensagens, mesmo em ambientes dinâmicos.",
+    "categoria": "o_que_e"
+  },
+  {
+    "id": 6,
+    "pergunta": "Compare o protocolo NCP com um protocolo moderno.",
+    "resposta_referencia": "O Protocolo de Controle de Rede (NCP) foi usado no início da ARPANET para estabelecer conexões entre computadores. Hoje, podemos compará-lo ao TCP/IP, que é o padrão dominante na internet moderna. Enquanto o NCP era específico e limitado, o TCP/IP é mais flexível e abrangente, suportando uma ampla gama de aplicações.",
+    "categoria": "compare"
+  },
+  {
+    "id": 7,
+    "pergunta": "Qual a diferença entre uma linguagem de programação imperativa e declarativa?",
+    "resposta_referencia": "As principais diferenças entre linguagens imperativas e declarativas são no modo como as instruções de execução são expressas. As linguagens imperativas descrevem como o computador deve realizar uma tarefa passo a passo, detalhando cada operação necessária. As linguagens declarativas focam em definir o que precisa ser feito, permitindo ao compilador ou interpretador decidir a melhor forma de executar essa tarefa. Exemplos de linguagens imperativas incluem C e Java, enquanto SQL e HTML são exemplos de linguagens declarativas.",
+    "categoria": "qual_quais"
+  },
+  {
+    "id": 8,
+    "pergunta": "Qual a diferença entre testes de integração e aceitação?",
+    "resposta_referencia": "Os testes de integração verificam como diferentes partes do sistema trabalham juntas, enquanto os testes de aceitação confirmam que o sistema atende aos requisitos de negócio. Os primeiros são mais focados em detectar erros entre componentes, e os segundos garantem que o software funcione conforme esperado para os usuários finais.",
+    "categoria": "qual_quais"
+  },
+  {
+    "id": 9,
+    "pergunta": "Qual a diferença entre um instalador e uma ferramenta de linha de comando para instalar software?",
+    "resposta_referencia": "Um instalador automatiza completamente o processo de instalação, oferecendo opções gráficas como seleção de local de instalação, confirmação de permissões, entre outros. Por outro lado, uma ferramenta de linha de comando é mais manual e depende de comandos específicos digitados pelo usuário para realizar a instalação, geralmente sem interface gráfica.",
+    "categoria": "qual_quais"
+  },
+  {
+    "id": 10,
+    "pergunta": "Com base no código fornecido, qual é a função da variável 'quant'?",
+    "resposta_referencia": "'quant' armazena o número de elementos repetidos encontrados entre os dois conjuntos de números digitados pelo usuário. Após chamar a função 'geraRepetidos', que identifica e conta esses elementos, a variável 'quant' será preenchida com esse valor.",
+    "categoria": "outros"
+  },
+  {
+    "id": 11,
+    "pergunta": "O que é um sistema operacional?",
+    "resposta_referencia": "Um sistema operacional (SO) é um conjunto de programas que gerencia os recursos do computador, fornecendo uma interface entre o hardware e o usuário/ferramentas de software. Suas principais funções incluem gerenciar a memória, controlar a entrada/saída, agendar processos e coordenar acesso aos dispositivos. Existem diversos tipos de SOs, como os sistemas operacionais para desktop (Windows, macOS), servidores (Linux) e smartphones (Android, iOS).",
+    "categoria": "o_que_e"
+  },
+  {
+    "id": 12,
+    "pergunta": "Em qual situação você usaria uma fila em vez de uma lista?",
+    "resposta_referencia": "Você usaria uma fila quando precisa processar os elementos em ordem FIFO (First In, First Out), onde o primeiro item adicionado é o primeiro a ser removido. Isso é comum em algoritmos de busca em largura, gerenciamento de recursos em sistemas operacionais e simulações.",
+    "categoria": "outros"
+  },
+  {
+    "id": 13,
+    "pergunta": "Qual a diferença entre compilação e interpretação em linguagens de programação?",
+    "resposta_referencia": "A compilação é um processo que traduz o código-fonte completo de uma linguagem de alto nível para um arquivo executável. O compilador gera todo o código objeto ou binário que pode ser executado diretamente pelo sistema operacional. Já a interpretação ocorre durante a execução, onde cada linha do código é lida e interpretada individualmente pelo intérprete, sem gerar um arquivo executável independente.",
+    "categoria": "qual_quais"
+  },
+  {
+    "id": 14,
+    "pergunta": "O que é uma área de trabalho (desktop) no contexto da Ciência da Computação?",
+    "resposta_referencia": "Área de trabalho, ou desktop, refere-se a um modelo conceitual desenvolvido pela Xerox no final dos anos 1970 para melhorar o fluxo de trabalho em computadores. Este modelo transformou significativamente como as tarefas do escritório são realizadas, incluindo a criação, edição e impressão de documentos.",
+    "categoria": "o_que_e"
+  },
+  {
+    "id": 15,
+    "pergunta": "O que é um gerador em Python?",
+    "resposta_referencia": "Um gerador em Python é uma função especial que retorna um iterador gerando valores de maneira eficiente e sob medida, sem armazenar todos os valores na memória. Ele gera um valor a cada iteração usando o comando 'yield' ao invés de retornar uma resposta final. Isso faz com que seja mais leve em termos de uso de memória do que uma lista.",
+    "categoria": "o_que_e"
+  },
+  {
+    "id": 16,
+    "pergunta": "Como as funções auxiliares funcionam no exemplo fornecido?",
+    "resposta_referencia": "As funções auxiliares no exemplo fornecido são utilizadas para retornar outras funções. Isso permite que a função principal (`outra_funcao`) retorne uma nova função com base nos parâmetros passados, de forma dinâmica e flexível.",
+    "categoria": "como_funciona"
+  },
+  {
+    "id": 17,
+    "pergunta": "O que são buffers em sistemas de computação?",
+    "resposta_referencia": "Buffers em sistemas de computação são estruturas de dados temporárias usadas para armazenar os dados durante a transferência entre processos ou dispositivos. Eles auxiliam na sincronização de operações que ocorrem a diferentes taxas, permitindo uma comunicação eficiente e sem erros. Os buffers podem ser encontrados em diversos cenários, como redes de computadores, dispositivos de entrada/saída (I/O) e sistemas de banco de dados.",
+    "categoria": "o_que_e"
+  },
+  {
+    "id": 18,
+    "pergunta": "O que é Máquina de Turing?",
+    "resposta_referencia": "Uma Máquina de Turing é um modelo matemático de computação que descreve a operação de uma máquina capaz de realizar cálculos e manobras sobre cadeias finitas de símbolos. É composta por um conjunto de estados, uma fita infinita dividida em células, cada uma contendo um único símbolo do alfabeto da Máquina de Turing, uma cabeça que pode ler e escrever na fita e mover-se para a direita ou esquerda. A Máquina de Turing segue regras determinadas por uma tabela de transição, passando de um estado para outro com base no símbolo atual lido na fita.",
+    "categoria": "o_que_e"
+  },
+  {
+    "id": 19,
+    "pergunta": "O que é uma classe no contexto da programação orientada a objetos?",
+    "resposta_referencia": "Uma classe é um modelo ou blueprint para criar objetos em programação orientada a objetos (POO). Ela define o comportamento e os atributos que um objeto pode ter. As classes contêm métodos (funções) e atributos (variáveis), que descrevem as operações e características do objeto.",
+    "categoria": "o_que_e"
+  },
+  {
+    "id": 20,
+    "pergunta": "Como o sistema determina a prioridade de um operador?",
+    "resposta_referencia": "A prioridade (ou precedência) de um operador define a ordem em que os cálculos são realizados quando há múltiplos operadores com diferentes níveis de prioridade. Operadores com maior prioridade são avaliados primeiro, garantindo o cálculo correto da expressão.",
+    "categoria": "como_funciona"
+  },
+  {
+    "id": 21,
+    "pergunta": "O que é um espaço de nome e para que serve?",
+    "resposta_referencia": "Um espaço de nome é uma estrutura de nomes que agrupa e organiza símbolos (também chamados de identificadores) de maneira a evitar colisões entre nomes com o mesmo nome em diferentes contextos. Isso permite que programadores criem hierarquias de nomes, onde um nome pode ser único dentro do seu próprio espaço de nome e compartilhado com outros nomes em espaços de nome diferentes.",
+    "categoria": "o_que_e"
+  },
+  {
+    "id": 22,
+    "pergunta": "Em qual situação seria mais apropriado usar a Teoria Fundamentada nos Dados?",
+    "resposta_referencia": "A Teoria Fundamentada nos Dados é mais apropriada quando se busca uma compreensão inovadora ou uma nova perspectiva sobre um fenômeno específico. Ela é particularmente útil em pesquisa qualitativa onde a criação de teorias novas e originais baseadas na análise dos dados coletados é o objetivo principal.",
+    "categoria": "outros"
+  },
+  {
+    "id": 23,
+    "pergunta": "O que são sensores e como eles são utilizados em sistemas computacionais?",
+    "resposta_referencia": "Sensores são dispositivos físicos capazes de detectar, medir ou registrar uma propriedade do meio ambiente. Em sistemas computacionais, eles capturam dados sobre a realidade ao seu redor e transformam esses dados em informações que podem ser processadas pelo sistema. Por exemplo, um acelerômetro pode detectar o movimento de um smartphone para controlar funcionalidades como o modo de abertura do painel de controle quando o dispositivo é virado horizontalmente.",
+    "categoria": "o_que_e"
+  },
+  {
+    "id": 24,
+    "pergunta": "Qual a diferença entre um banco de dados relacional e um NoSQL?",
+    "resposta_referencia": "Um banco de dados relacional segue estritamente o modelo de dados tabular, onde os dados são armazenados em tabelas com colunas e linhas. As chaves primárias garantem a integridade do conjunto de dados. Em contraste, um banco de dados NoSQL não segue o modelo tabular tradicional. Ele pode usar vários modelos de armazenamento de dados como chave-valor, documentos, column-family ou grafo. Isso permite mais flexibilidade na estrutura dos dados, mas a integridade do conjunto de dados é geralmente menos rigorosa.",
+    "categoria": "qual_quais"
+  },
+  {
+    "id": 25,
+    "pergunta": "Como funciona o algoritmo de Dijkstra para encontrar o caminho mínimo em um grafo?",
+    "resposta_referencia": "O algoritmo de Dijkstra é usado para encontrar o menor caminho entre um nó inicial e todos os outros nós em um grafo pesado. Começa atribuindo uma distância inicial a cada nó, com exceção do nó inicial que recebe a distância zero. Em seguida, ele itera sobre todos os vértices, selecionando o nó com a menor distância desconhecida e atualizando as distâncias dos vizinhos se os caminhos calculados forem menores. O processo continua até todas as distâncias serem conhecidas.",
+    "categoria": "como_funciona"
+  },
+  {
+    "id": 26,
+    "pergunta": "O que é atribuição de lista em linguagens de programação?",
+    "resposta_referencia": "Atribuição de lista, também conhecida como desempacotamento, é uma característica que permite a um programador associar os valores de múltiplas variáveis diretamente com os elementos de uma coleção, como uma lista ou array. Por exemplo, em Python, pode-se atribuir (a, b) = [10, 20] para que 'a' receba o valor 10 e 'b' recebe 20.",
+    "categoria": "o_que_e"
+  },
+  {
+    "id": 27,
+    "pergunta": "O que é a Teoria Fundamentada nos Dados?",
+    "resposta_referencia": "A Teoria Fundamentada nos Dados é uma abordagem para análise qualitativa dos dados que visa desenvolver teorias fundamentadas no conjunto de dados coletados. O objetivo é construir uma teoria que se alinhe com a interpretação empírica desses dados, onde os conceitos e relações são bem definidos.",
+    "categoria": "o_que_e"
+  },
+  {
+    "id": 28,
+    "pergunta": "Por que a consistência visual é importante na criação de gráficos?",
+    "resposta_referencia": "A consistência visual em gráficos é crucial porque ela ajuda a manter uma aparência profissional e coerente, facilitando a compreensão da informação. Elementos-chave como ticks do eixo devem ser um pouco mais claros ou evidentes do que outros elementos para evitar mal-entendidos visuais. A consistência também auxilia na integridade da informação apresentada, garantindo que o público não se desvie da mensagem principal.",
+    "categoria": "por_que"
+  },
+  {
+    "id": 29,
+    "pergunta": "Quando seria apropriado usar rename(columns = {'y':'year'}) em vez de reset_index()?",
+    "resposta_referencia": "A função rename(columns={'y': 'year'}) é usada para renomear as colunas do DataFrame, enquanto reset_index() redefine o índice do DataFrame. Você deve usar rename() quando deseja alterar o nome das colunas existentes no seu DataFrame, por exemplo, se a coluna 'y' precisa ser renomeada como 'year'. O reset_index(), por outro lado, é útil quando você deseja redefinir o índice do DataFrame para um padrão sequencial ou desejável. Portanto, use rename() quando há uma necessidade de renomear colunas e reset_index() quando você quer ajustar a estrutura do índice.",
+    "categoria": "outros"
+  },
+  {
+    "id": 30,
+    "pergunta": "Qual a importância da clareza na tradução de textos técnicos?",
+    "resposta_referencia": "A tradução literal pode resultar em texto confuso e pouco compreensível para o leitor. É importante garantir que a tradução seja precisa e clara, preservando o sentido original do texto ao mesmo tempo em que se adapta à linguagem da língua de destino.",
+    "categoria": "qual_quais"
+  },
+  {
+    "id": 31,
+    "pergunta": "Qual é a principal diferença entre linguagens formais e linguagens naturais?",
+    "resposta_referencia": "As principais diferenças são que as linguagens formais possuem estruturas bem definidas, regras claras e finitas, e são usadas principalmente em sistemas de computador. As linguagens naturais, por outro lado, são fluidas, imprecisas e variáveis, sendo o meio de comunicação entre seres humanos.",
+    "categoria": "qual_quais"
+  },
+  {
+    "id": 32,
+    "pergunta": "O que é um CPF e como é calculado o dígito verificador?",
+    "resposta_referencia": "Um CPF (Cadastro de Pessoas Físicas) é um número identificador exclusivo atribuído a cidadãos brasileiros. O algoritmo para calcular o dígito verificador depende de todos os nove dígitos do CPF. Para cada dígito verificador, são realizadas operações matemáticas (por exemplo, multiplicação por pesos e soma) dos nove primeiros dígitos e o resultado é usado para determinar o valor do dígito verificador.",
+    "categoria": "o_que_e"
+  },
+  {
+    "id": 33,
+    "pergunta": "Comparando a ordenação por inserção com o algoritmo de ordenação por fusão, em qual situação seria preferível usar a ordenação por inserção?",
+    "resposta_referencia": "A ordenação por inserção é geralmente mais eficiente do que os algoritmos de divisão e conquista, como a ordenação por fusão, quando o tamanho do array ou lista é pequeno. Isso ocorre porque a ordenação por inserção tem uma complexidade assintótica melhor para pequenas entradas (O(n^2)), enquanto os algoritmos de divisão e conquista têm um desempenho superior para grandes conjuntos de dados, mesmo com complexidades mais altas em algumas situações. Portanto, a ordenação por inserção seria preferível quando o tamanho do array ou lista é muito pequeno.",
+    "categoria": "outros"
+  },
+  {
+    "id": 34,
+    "pergunta": "Como calcular o produto interno entre os vetores G = [2, 3, 7] e H = [5, -2, 4]?",
+    "resposta_referencia": "Para calcular o produto interno dos vetores G = [2, 3, 7] e H = [5, -2, 4], multiplique os componentes correspondentes e some os resultados: (2 * 5) + (3 * -2) + (7 * 4) = 10 - 6 + 28 = 32.",
+    "categoria": "como_funciona"
+  },
+  {
+    "id": 35,
+    "pergunta": "O que é Lógica Fuzzy?",
+    "resposta_referencia": "A Lógica Fuzzy é um ramo da lógica matemática que permite a verdadeiro e falso existirem valores intermediários, modelando assim situações com graus de certeza. Diferente do raciocínio binário tradicional (0 ou 1), a lógica fuzzy usa intervalos contínuos para representar a incerteza nas decisões.",
+    "categoria": "o_que_e"
+  },
+  {
+    "id": 36,
+    "pergunta": "Como funciona o acesso negativo aos elementos de uma lista?",
+    "resposta_referencia": "O acesso negativo aos elementos de uma lista permite acessar os itens da lista usando índices positivos e negativos. Os índices negativos contam a partir do final da lista, onde -1 é o último item, -2 é o penúltimo, e assim por diante.",
+    "categoria": "como_funciona"
+  },
+  {
+    "id": 37,
+    "pergunta": "Defina o que é um operador relacional em C.",
+    "resposta_referencia": "Um operador relacional em C é um símbolo utilizado para comparar dois valores e retornar um valor booleano (0 ou 1) que indica se a comparação é verdadeira ou falsa. Os seis operadores relacionais de C são: maior que (>), maior ou igual que (>=), menor que (<), menor ou igual que (<=), igual a (==), e não igual a (!=).",
+    "categoria": "defina"
+  },
+  {
+    "id": 38,
+    "pergunta": "Como funciona uma validação de entrada em uma string?",
+    "resposta_referencia": "Para validar uma string, é necessário verificar se ela atende a um conjunto específico de condições. Neste caso, a string deve ter pelo menos 4 e no máximo 6 caracteres. Isso pode ser realizado através da função `strlen()` da biblioteca <strings.h>, que retorna o tamanho da string, e então comparar esse valor com os limites desejados.",
+    "categoria": "como_funciona"
+  },
+  {
+    "id": 39,
+    "pergunta": "Quais as vantagens de usar uma árvore binária de pesquisa em comparação a uma lista encadeada?",
+    "resposta_referencia": "Uma árvore binária de pesquisa oferece melhor desempenho para operações de busca, inserção e remoção. Em uma árvore bem balanceada, essas operações têm complexidade temporal de O(log n), em comparação com a lista encadeada, que tem complexidade de tempo de O(n). Além disso, as árvores permitem navegação em ordem alfabética ou de acordo com o valor do nó pai sem a necessidade de iteração completa da estrutura.",
+    "categoria": "qual_quais"
+  },
+  {
+    "id": 40,
+    "pergunta": "Como as operações de I/O para caracteres e strings em canais são realizadas?",
+    "resposta_referencia": "As operações de Entrada/Saída (I/O) em canais, como stdin, stdout e stderr, geralmente envolvem a leitura de entrada do usuário ou outros processos e a escrita de saída para a tela ou outros destinos. Em linguagens de programação, essas operações são implementadas por funções específicas, que lidam com a manipulação de caracteres e strings, permitindo a comunicação bidirecional entre o programa e o usuário.",
+    "categoria": "como_funciona"
+  },
+  {
+    "id": 41,
+    "pergunta": "Quando usar um algoritmo de busca linear ao invés de uma busca binária?",
+    "resposta_referencia": "A busca linear deve ser usada quando os dados não estão ordenados, ou quando a implementação da busca binária é mais complexa do que o necessário. A busca binária requer que os dados estejam ordenados e tem um tempo de execução O(log n), enquanto a busca linear tem um tempo de execução O(n). Portanto, na ausência de uma estrutura de dados ordenada ou quando a eficiência adicional da busca binária não é crucial para o desempenho do programa, a busca linear é preferível.",
+    "categoria": "outros"
+  },
+  {
+    "id": 42,
+    "pergunta": "Em qual cenário seria preferível usar clonagem assíncrona?",
+    "resposta_referencia": "Clonagem assíncrona é especialmente útil em cenários onde a eficiência e o tempo total de clonagem são critérios importantes. Por exemplo, em ambientes de desenvolvimento colaborativo com múltiplos repositórios ou em sistemas de backup onde muitas cópias precisam ser criadas rapidamente, esta abordagem pode fornecer um aumento significativo na produtividade.",
+    "categoria": "outros"
+  },
+  {
+    "id": 43,
+    "pergunta": "Como funciona a execução de comandos SQL usando Python?",
+    "resposta_referencia": "A execução de comandos SQL usando Python envolve o uso de uma biblioteca, como sqlite3 ou pymysql. Você primeiro cria uma conexão com o banco de dados e então crie um cursor para executar os comandos SQL. A função execute() do cursor é usada para enviar a query ao banco de dados, que processa a query e retorna os resultados.",
+    "categoria": "como_funciona"
+  },
+  {
+    "id": 44,
+    "pergunta": "O que é uma filtragem FIR e como ela funciona?",
+    "resposta_referencia": "FIR (Finite Impulse Response) é um tipo de filtro digital caracterizado por sua resposta ao impulso finita, o que significa que a resposta do sistema a uma entrada delta é limitada em tempo. Funciona calculando a convolução linear da entrada com um vetor ponderado (impulso), onde os valores do vetor são os coeficientes do filtro. A principal vantagem dos filtros FIR é a possibilidade de designar qualquer resposta ao impulso, permitindo o controle detalhado do comportamento do filtro.",
+    "categoria": "o_que_e"
+  },
+  {
+    "id": 45,
+    "pergunta": "O que são filtros adaptativos em processamento de imagens?",
+    "resposta_referencia": "Filtros adaptativos em processamento de imagens são técnicas onde o comportamento do filtro muda dinamicamente com base nas características estatísticas locais da imagem. Isso significa que diferentes partes de uma imagem podem ser filtradas de maneira diferente, dependendo das suas propriedades específicas, permitindo um tratamento mais preciso dos ruídos e outras degradações.",
+    "categoria": "o_que_e"
+  },
+  {
+    "id": 46,
+    "pergunta": "O que é uma heurística e como ela é utilizada no processo de solução de problemas?",
+    "resposta_referencia": "Uma heurística é um critério de decisão não-exaustivo usado para resolver problemas de maneira eficiente. Ela fornece um guia ou sugestão que, embora possa não ser a solução ótima, geralmente leva ao resultado mais próximo do ideal. Na resolução de problemas, as heurísticas são utilizadas para reduzir o espaço de busca e encontrar uma solução adequada em menos tempo. No exemplo dado, a escolha da heurística foi influenciada pelo custo menor do píer 2 e pela restrição de estoque mínimo de petróleo.",
+    "categoria": "o_que_e"
+  },
+  {
+    "id": 47,
+    "pergunta": "Qual é a principal diferença entre a rastreamento de pixels e o desenho vectorial na computação gráfica?",
+    "resposta_referencia": "A principal diferença entre o rastreamento de pixels e o desenho vectorial na computação gráfica está no método usado para representar e manipular imagens. O rastreamento de pixels trabalha com um mapa de bits, onde cada pixel da imagem é representado individualmente. Por outro lado, o desenho vectorial armazena os elementos gráficos em termos matemáticos, como linhas, curvas e formas, que podem ser renderizados em diferentes tamanhos sem perda de qualidade.",
+    "categoria": "qual_quais"
+  },
+  {
+    "id": 48,
+    "pergunta": "Qual a diferença entre passar valores por parâmetro e retornar valores de uma função?",
+    "resposta_referencia": "Passar valores por parâmetro ocorre quando esses valores são fornecidos ao chamar uma função, sendo usados para personalizar a execução interna da função. Retornar valores de uma função significa que o código dentro dela processa os dados e produz um resultado que pode ser utilizado fora do contexto da função, geralmente por meio de uma instrução return.",
+    "categoria": "qual_quais"
+  },
+  {
+    "id": 49,
+    "pergunta": "Qual a diferença entre algoritmos de busca em largura (BFS) e profundidade (DFS)?",
+    "resposta_referencia": "A busca em largura (BFS, Breath-First Search) e a busca em profundidade (DFS, Depth-First Search) são estratégias comuns para explorar grafos. A principal diferença é o critério de expansão: BFS expande todos os nós do nível atual antes de passar ao próximo nível, garantindo a descoberta do caminho mais curto no caso de grafos sem pesos. Já o DFS entra profundamente em uma ramificação do grafo, visitando sub-nós antes de retornar para o nó superior (algoritmo de pré-ordem), ou após visitar todos os filhos (post-ordem).",
+    "categoria": "qual_quais"
+  },
+  {
+    "id": 50,
+    "pergunta": "Como funciona o princípio de herança em programação orientada a objetos?",
+    "resposta_referencia": "Herança é um conceito fundamental na programação orientada a objetos que permite que uma classe (chamada classe derivada ou subclasse) herde atributos e métodos de outra classe (chamada classe base ou superclasse). Isso promove a reutilização do código, facilita a manutenção e pode criar hierarquias de classes. A herança também permite sobrescrever métodos da superclasse na subclasse para fornecer comportamentos específicos.",
+    "categoria": "como_funciona"
+  },
+  {
+    "id": 51,
+    "pergunta": "Qual a diferença entre texto e número em planilhas?",
+    "resposta_referencia": "O principal diferencial entre texto e números em planilhas é que os textos são compreendidos como sequências aleatórias de caracteres, sem qualquer interpretação numérica. Os números, por outro lado, podem ser formatados com cálculos matemáticos e operações financeiras, permitindo que sejam somados, multiplicados ou dividos. Além disso, os textos são alinhados à esquerda enquanto os números geralmente são alinhados à direita.",
+    "categoria": "qual_quais"
+  },
+  {
+    "id": 52,
+    "pergunta": "Como funciona a translação de endereços em sistemas de pipelining?",
+    "resposta_referencia": "A translação de endereços no sistema de pipelining envolve o uso de uma etapa inicial para gerar um endereço efetivo a partir dos registradores virtuais. Este endereço é então convertido para um endereço físico na próxima etapa, permitindo que instruções de armazenamento espere pela disponibilidade tanto do registrador de endereços quanto do registrador de dados antes da execução.",
+    "categoria": "como_funciona"
+  },
+  {
+    "id": 53,
+    "pergunta": "Comparação entre algoritmos de busca binária e busca sequencial.",
+    "resposta_referencia": "A principal diferença entre os algoritmos de busca binária e busca sequencial reside no tempo de execução. A busca binária é eficiente para listas ordenadas, executando em O(log n), enquanto a busca sequencial requer O(n) em qualquer situação. No entanto, a busca binária exige que a lista seja inicialmente ordenada, o que pode tornar sua aplicação menos prática do que a busca sequencial em certos cenários.",
+    "categoria": "outros"
+  },
+  {
+    "id": 54,
+    "pergunta": "Como funciona a atribuição de diferentes tipos para uma mesma variável em Python?",
+    "resposta_referencia": "Em Python, a atribuição de diferentes tipos para uma mesma variável ocorre dinamicamente. Isso significa que você pode inicializar uma variável com um tipo específico e posteriormente atribuir valores do mesmo ou outro tipo sem restrições. O intérprete Python se encarrega de gerenciar o estado da variável, permitindo assim a flexibilidade no uso de diferentes tipos de dados.",
+    "categoria": "como_funciona"
+  },
+  {
+    "id": 55,
+    "pergunta": "Como funciona a operação de convolução na camada convolucional?",
+    "resposta_referencia": "A operação de convolução na camada convolucional envolve três passos principais: primeiro, uma área na feature map correspondente ao tamanho do kernel é selecionada; em segundo lugar, os pontos correspondentes são multiplicados pelo kernel; e por último, o coeficiente de deslocamento é somado à soma dos resultados. O valor resultante tem um viés adicionado e passa por uma função de ativação para produzir a saída da camada convolucional.",
+    "categoria": "como_funciona"
+  },
+  {
+    "id": 56,
+    "pergunta": "Como calcular a entropia de uma classe com dois estados?",
+    "resposta_referencia": "A entropia para uma classe com dois estados é calculada usando a fórmula: -p1 * log2(p1) - p0 * log2(p0), onde p1 e p0 são as proporções dos dois estados. Por exemplo, se um conjunto de dados tem 9 elementos em um estado e 5 em outro, sua entropia seria -9/14 * log2(9/14) - 5/14 * log2(5/14).",
+    "categoria": "como_funciona"
+  },
+  {
+    "id": 57,
+    "pergunta": "O que é verdadeiro positivo em um sistema de recomendação?",
+    "resposta_referencia": "Verdadeiro positivo refere-se a itens relevantes corretamente identificados como relevantes pelo sistema.",
+    "categoria": "o_que_e"
+  },
+  {
+    "id": 58,
+    "pergunta": "Como funciona a descrição comportamental em VHDL?",
+    "resposta_referencia": "A descrição comportamental em VHDL descreve o que um sistema deve fazer de forma abstrata, sem se preocupar com detalhes físicos ou lógicos. Ela utiliza uma linguagem mais próxima do inglês ou da matemática para especificar a funcionalidade do circuito, permitindo um desenvolvimento mais rápido e prototipagem.",
+    "categoria": "como_funciona"
+  },
+  {
+    "id": 59,
+    "pergunta": "Qual a diferença entre uma função recursiva e uma função iterativa?",
+    "resposta_referencia": "Uma função recursiva é aquela que se chama a si própria em seu próprio corpo para resolver um problema, dividindo-o em subproblemas menores até atingir um caso base. Por outro lado, uma função iterativa utiliza estruturas de controle como laços (for, while) para repetir o código várias vezes até alcançar um resultado. As principais diferenças são a utilização da pilha na recursão e do uso de memória adicional em comparação com as soluções iterativas.",
+    "categoria": "qual_quais"
+  },
+  {
+    "id": 60,
+    "pergunta": "Quando os atuadores podem ser incorporados em um sensor node?",
+    "resposta_referencia": "Atuadores podem ser incorporados em um sensor node quando a aplicação requer ação física ou controlada. Isso pode ocorrer em cenários onde os sensores não apenas coletam dados, mas também precisam interagir com o ambiente de alguma forma, como abrir efeitos, mover mecanismos ou realizar operações automatizadas.",
+    "categoria": "outros"
+  },
+  {
+    "id": 61,
+    "pergunta": "O que é tabela de hash?",
+    "resposta_referencia": "Uma tabela de hash, ou simplesmente tabela hash, é uma estrutura de dados que associa chaves únicas a valores correspondentes através de uma função de hashing. Ela permite acesso rápido aos valores associados às chaves, facilitando operações como inserção, busca e exclusão.",
+    "categoria": "o_que_e"
+  },
+  {
+    "id": 62,
+    "pergunta": "Qual é a diferença entre herança simples e múltipla?",
+    "resposta_referencia": "A principal diferença entre herança simples e herança múltipla está na estrutura da hierarquia de classes. Em herança simples, uma subclasse herda diretamente de uma única superclasse. Isso cria uma hierarquia linear de classes. Na herança múltipla, uma subclasse pode herdar de mais de uma superclasse, o que pode resultar em ambiguidades e complexidades significativas se não for cuidadosamente gerenciada.",
+    "categoria": "qual_quais"
+  },
+  {
+    "id": 63,
+    "pergunta": "O que é uma constante simbólica e quando ela deve ser usada?",
+    "resposta_referencia": "Uma constante simbólica é um identificador que representa um valor não modificado durante a execução do programa. Ela deve ser utilizada quando é necessário manter um valor constante no código, facilitando futuras alterações e mantendo o código mais legível. Por exemplo, ao invés de usar um número literal em uma definição, como #define TAMANHO 100, você pode usar a constante simbólica na sua estrutura de controle ou cálculos.",
+    "categoria": "o_que_e"
+  },
+  {
+    "id": 64,
+    "pergunta": "Qual a diferença entre algoritmo A* e Busca em Largura (BFS)?",
+    "resposta_referencia": "A principal diferença entre algoritmo A* e Busca em Largura (BFS) é que A* utiliza uma função heurística para estimar o custo de alcançar o objetivo a partir do nó atual, permitindo que ele explore caminhos mais promissores. Em contraste, BFS expande todos os nós na mesma profundidade antes de avançar para uma profundidade maior, sem considerar a eficiência relativa dos caminhos.",
+    "categoria": "qual_quais"
+  },
+  {
+    "id": 65,
+    "pergunta": "Qual é a função da verificação do bit executado (executed bit) na cabeça da RUU?",
+    "resposta_referencia": "O bit executado na entrada de RUU à frente indica se uma instrução foi realmente executada. Se está setado, isso significa que os resultados podem ser passados para o arquivo de registradores.",
+    "categoria": "qual_quais"
+  },
+  {
+    "id": 66,
+    "pergunta": "Em quais situações seria apropriado usar um sistema de rede privada em vez da internet?",
+    "resposta_referencia": "Um sistema de rede privada é preferível quando há necessidade de alta segurança, controle de acesso restrito e confidencialidade. Por exemplo, empresas que lidam com informações sensíveis ou críticas podem optar por redes privadas para garantir a integridade dos dados e manter uma comunicação mais segura entre os sistemas internos.",
+    "categoria": "outros"
+  },
+  {
+    "id": 67,
+    "pergunta": "Quais são as principais vantagens de usar banco de dados relacional?",
+    "resposta_referencia": "As principais vantagens de usar bancos de dados relacionais incluem integridade dos dados, coerência transacional, suporte a consultas complexas e segurança. Os sistemas de gerenciamento de banco de dados relacional (SGBDR) garantem consistência e isolamento das operações, minimizando conflitos simultâneos entre usuários. Além disso, permitem armazenar, recuperar e manipular dados por meio de consultas SQL, que são facilmente entendíveis.",
+    "categoria": "qual_quais"
+  },
+  {
+    "id": 68,
+    "pergunta": "Qual é a diferença entre produtos acidentais e criptografia?",
+    "resposta_referencia": "Produtos acidentais são consequências indesejadas de sistemas tecnológicos projetados para lucro, que podem prejudicar a democracia digital. Criptografia, por outro lado, é uma técnica utilizada para codificar informações, protegendo assim a privacidade e a liberdade de expressão em ambientes online.",
+    "categoria": "qual_quais"
+  },
+  {
+    "id": 69,
+    "pergunta": "Como funciona a formulação matemática do Problema de Transporte?",
+    "resposta_referencia": "A formulação matemática do Problema de Transporte envolve definir variáveis que representam as quantidades transportadas, restrições que garantem que a oferta seja igual à demanda e uma função objetivo que minimiza o custo total de transporte. As variáveis são as quantidades xij (quantidade transportada do produto da origem i para o destino j), as restrições incluem a soma das quantidades enviadas de cada origem ser igual ao valor de oferta ai, e a soma das quantidades recebidas em cada destino ser igual ao valor de demanda bj. O objetivo é minimizar a função objetivo ∑(i=1 to m)∑(j=1 to n) cij * xij.",
+    "categoria": "como_funciona"
+  },
+  {
+    "id": 70,
+    "pergunta": "O que é a entrega evolutiva no contexto da engenharia de software?",
+    "resposta_referencia": "A entrega evolutiva é um modelo de ciclo de vida em engenharia de software onde o produto é desenvolvido e entregue em fases sucessivas, permitindo que partes do sistema sejam avaliadas por usuários ao longo do processo. Isso promove a integração contínua do feedback dos clientes para melhorias futuras.",
+    "categoria": "o_que_e"
+  },
+  {
+    "id": 71,
+    "pergunta": "Qual a diferença entre o método `remove()` e `pop()`?",
+    "resposta_referencia": "O método `remove()` remove o primeiro item da lista que corresponde ao valor especificado. Já o método `pop()` remove um item no índice especificado ou, se não for fornecido, remove o último item da lista.",
+    "categoria": "qual_quais"
+  },
+  {
+    "id": 72,
+    "pergunta": "Como a variável local funciona na execução da função?",
+    "resposta_referencia": "Ao entrar em uma função, um novo ambiente de variáveis é criado para armazenar as variáveis locais. Cada vez que a função é chamada, essas variáveis são inicializadas e estão disponíveis apenas durante o tempo de execução da função.",
+    "categoria": "como_funciona"
+  },
+  {
+    "id": 73,
+    "pergunta": "Como a biblioteca Pillow pode ser utilizada em processamento de imagens?",
+    "resposta_referencia": "A Biblioteca de Imagens Python (Pillow) é uma ferramenta poderosa para manipulação e processamento de imagens. Ela permite abrir, modificar e salvar arquivos de imagem em diversos formatos, como PNG, JPEG, GIF, entre outros. Além disso, oferece funções avançadas para edição, transformação e análise de imagens.",
+    "categoria": "como_funciona"
+  },
+  {
+    "id": 74,
+    "pergunta": "Qual a diferença entre uma pilha (stack) e uma fila (queue)?",
+    "resposta_referencia": "Uma pilha (stack) é uma estrutura de dados LIFO (Last In, First Out), onde o último elemento inserido será o primeiro a ser removido. Já uma fila (queue) é uma estrutura de dados FIFO (First In, First Out), onde o primeiro item a entrar será o primeiro a sair. Exemplos comuns de uso são: pilhas para operações de desfazer/fazer novamente em programas e filas para processamento sequencial de tarefas.",
+    "categoria": "qual_quais"
+  },
+  {
+    "id": 75,
+    "pergunta": "Quais são os códigos éticos das sociedades de computação mais importantes?",
+    "resposta_referencia": "As principais sociedades de computação no Brasil (SBC) e no mundo (ACM) possuem seus respectivos códigos de ética. O ACM Code of Ethics and Professional Conduct, por exemplo, enfatiza o compromisso profissional com a honestidade e integridade, bem como a responsabilidade social e ambiental. Já o Codigo de Ética Profissional da SBC é uma declaração que reúne princípios orientadores para os profissionais da área de ciência da computação no Brasil.",
+    "categoria": "qual_quais"
+  },
+  {
+    "id": 76,
+    "pergunta": "O que é herança em programação orientada a objetos?",
+    "resposta_referencia": "Herança é um mecanismo de programação orientada a objetos onde uma classe (chamada classe filha ou subclasse) herdará os atributos e métodos de outra classe (chamada classe mãe ou superclasse). Isso permite compartilhar código entre classes, promovendo a reutilização. A herança também permite que as classes filhas sobrescrevam ou adicionem novos comportamentos aos métodos herdados.",
+    "categoria": "o_que_e"
+  },
+  {
+    "id": 77,
+    "pergunta": "Como evitar erros ortográficos no texto?",
+    "resposta_referencia": "Para evitar erros ortográficos, é importante revisar o texto cuidadosamente, utilizar ferramentas de correção gramatical e procurar a ajuda de outros para verificar o conteúdo antes do envio. É crucial garantir que cada palavra esteja escrita corretamente.",
+    "categoria": "como_funciona"
+  },
+  {
+    "id": 78,
+    "pergunta": "Em que situações seria útil conhecer a função f(n)?",
+    "resposta_referencia": "Conhecer a função f(n) é útil quando se quer avaliar e comparar o desempenho de diferentes algoritmos ou estruturas de dados sob diferentes padrões de acesso. Ela ajuda na tomada de decisões sobre quais métodos usar em situações onde o perfil de acessos é conhecido.",
+    "categoria": "outros"
+  },
+  {
+    "id": 79,
+    "pergunta": "O que é o pseudocódigo de um salto incondicional em processadores RISC?",
+    "resposta_referencia": "Um pseudocódigo de salto incondicional (jr $ra) para processadores RISC indica que o registrador $ra, que armazena a posição do programa antes da chamada à subrotina, é carregado no endereço do PC (Program Counter). Isto faz com que o fluxo de execução continue na instrução seguinte ao salto incondicional.",
+    "categoria": "o_que_e"
+  },
+  {
+    "id": 80,
+    "pergunta": "O que são matrizes finitas em Ciência da Computação?",
+    "resposta_referencia": "Matrizes finitas em Ciência da Computação referem-se a estruturas de dados bidimensionais ou multidimensionais onde os índices estão mapeados de forma restrita sobre um conjunto de componentes. Cada índice tem uma faixa específica associada, e operações de acesso aos elementos devem estar dentro dessas faixas.",
+    "categoria": "o_que_e"
+  },
+  {
+    "id": 81,
+    "pergunta": "O que são protocolos de comunicação de tempo-real?",
+    "resposta_referencia": "Protocolos de comunicação de tempo-real são mecanismos utilizados para transferir dados com precisão temporal, garantindo a pontualidade da entrega. Eles devem ser capazes não apenas de transmitir mensagens, mas também de detectar e corrigir erros, bem como lidar adequadamente com perdas de mensagem ou nós no sistema.",
+    "categoria": "o_que_e"
+  },
+  {
+    "id": 82,
+    "pergunta": "O que é coloração de grafos e em que problemas pode ser aplicado?",
+    "resposta_referencia": "A coloração de grafos é um problema teórico e prático na Ciência da Computação, onde cada nó (vértice) de um grafo é rotulado com uma cor de forma a não haver arestas conectando nós com a mesma cor. Este conceito tem aplicações em diversos campos como armazenamento seguro de produtos químicos, alocação de frequências em redes de comunicação e resolução de quebra-cabeças como o Sudoku.",
+    "categoria": "o_que_e"
+  },
+  {
+    "id": 83,
+    "pergunta": "O que é uma variável em programação?",
+    "resposta_referencia": "Uma variável em programação é um local de armazenamento temporário no computador, usado para guardar valores e ser referenciado pelo seu nome. Ela pode armazenar diferentes tipos de dados, como números inteiros (int), caracteres (char) ou números reais (float). Cada variável tem associado um tipo (int, char, float etc.), um nome único e uma localização de armazenamento na memória.",
+    "categoria": "o_que_e"
+  },
+  {
+    "id": 84,
+    "pergunta": "Como as colisões podem ocorrer no CSMA?",
+    "resposta_referencia": "As colisões no CSMA podem ocorrer quando dois ou mais nodos transmitem simultaneamente, detectando que o canal está livre e então iniciam a transmissão ao mesmo tempo. Isso acontece porque nem todos os nodos são capazes de sincronizar suas tentativas de transmissão perfeitamente.",
+    "categoria": "como_funciona"
+  },
+  {
+    "id": 85,
+    "pergunta": "Como funciona a alocação de variáveis estáticas em funções?",
+    "resposta_referencia": "As variáveis estáticas são inicializadas apenas uma vez, quando a função é chamada pela primeira vez. Depois disso, elas permanecem no espaço de armazenamento da pilha durante toda a execução da função e mantêm seu valor entre as chamadas subsequentes.",
+    "categoria": "como_funciona"
+  },
+  {
+    "id": 86,
+    "pergunta": "Defina a engenharia de software e liste três princípios importantes.",
+    "resposta_referencia": "A engenharia de software é um processo que envolve o desenvolvimento, manutenção e melhoria de sistemas computacionais. Três princípios importantes são: (1) abordagem orientada a soluções, onde se define claramente os requisitos do sistema; (2) gestão de versões, para garantir a integridade dos códigos ao longo do desenvolvimento; e (3) automação de testes, para eficiência na verificação da qualidade do software.",
+    "categoria": "defina"
+  },
+  {
+    "id": 87,
+    "pergunta": "O que são variáveis em programação?",
+    "resposta_referencia": "Variáveis em programação são nomes associados a valores que podem ser alterados durante o curso de uma execução de programa. Elas são usadas para armazenar, processar e manipular dados dentro do código.",
+    "categoria": "o_que_e"
+  },
+  {
+    "id": 88,
+    "pergunta": "Quais tipos são permitidos para índices em matrizes multidimensionais?",
+    "resposta_referencia": "Os tipos permitidos para índices em matrizes multidimensionais variam dependendo da linguagem de programação. Em geral, eles podem ser inteiros ou qualquer outro tipo que possa representar um índice numérico, como ponteiros ou enums. O importante é que o tipo seja compatível com a implementação da estrutura de dados.",
+    "categoria": "qual_quais"
+  },
+  {
+    "id": 89,
+    "pergunta": "Qual a diferença entre WordPad e um editor de código de texto?",
+    "resposta_referencia": "WordPad é um programa mais simples para edição de documentos de texto, enquanto editores de código de texto são projetados para programação e fornecem recursos específicos como suporte a sintaxe, indentação automática e navegação por código. WordPad não tem essas funcionalidades avançadas.",
+    "categoria": "qual_quais"
+  },
+  {
+    "id": 90,
+    "pergunta": "Quando usar um algoritmo de busca binária ao invés de uma busca sequencial?",
+    "resposta_referencia": "Use um algoritmo de busca binária ao invés de uma busca sequencial quando você precisa buscar elementos em listas ordenadas de grande tamanho. A busca binária é muito mais eficiente, executando em tempo O(log n), enquanto a busca sequencial exige O(n) para verificar todos os elementos. Portanto, se o custo de ordenar a lista é razoável e você planeja fazer muitas buscas, um algoritmo de busca binária pode ser a escolha mais adequada.",
+    "categoria": "outros"
+  },
+  {
+    "id": 91,
+    "pergunta": "Qual a diferença entre um algoritmo de busca binária e um algoritmo de busca sequencial?",
+    "resposta_referencia": "O algoritmo de busca binária é mais eficiente do que o algoritmo de busca sequencial. Em uma estrutura ordenada, a busca binária divide continuamente o conjunto de dados em duas partes até encontrar o elemento procurado ou determinar que ele não está presente. O tempo de execução para o algoritmo de busca binária é O(log n), enquanto o algoritmo de busca sequencial tem um tempo de execução de O(n). Isso faz com que o algoritmo de busca binária seja mais rápido em grandes conjuntos de dados, mas exige que os dados estejam ordenados.",
+    "categoria": "qual_quais"
+  },
+  {
+    "id": 92,
+    "pergunta": "Como funciona o processo de pesquisa em uma árvore AVL?",
+    "resposta_referencia": "A pesquisa em uma árvore AVL é semelhante ao processo na árvore binária de busca, mas com a garantia de que a árvore permanece balanceada. Durante a pesquisa, o nó raiz é comparado com o valor buscado e os nós são percorridos recursivamente para a esquerda ou direita dependendo do resultado da comparação. Se a árvore se desbalancear durante operações de inserção ou exclusão, rotações serão realizadas para manter a árvore balanceada.",
+    "categoria": "como_funciona"
+  },
+  {
+    "id": 93,
+    "pergunta": "Explique a diferença entre o conceito de dist(u) e δ(s,u) em grafos.",
+    "resposta_referencia": "dist(u) representa o comprimento do menor caminho especial (ou custo total) desde um vértice inicial s até qualquer outro vértice u no grafo. Por outro lado, δ(s,u) é a distância mínima direta entre os vértices s e u, sem considerar rotas intermediárias.",
+    "categoria": "explique"
+  },
+  {
+    "id": 94,
+    "pergunta": "Como funciona a passagem por referência em linguagens de programação?",
+    "resposta_referencia": "A passagem por referência transmite um caminho de acesso, o que permite que os acessos sejam mais eficientes do que na passagem por valor, pois não há necessidade de cópias e espaço duplicado. No entanto, essa abordagem pode resultar em acessos mais lentos comparados à passagem por valor-resultado.",
+    "categoria": "como_funciona"
+  },
+  {
+    "id": 95,
+    "pergunta": "Como funciona um método para determinar o tipo de triângulo?",
+    "resposta_referencia": "Um método para determinar o tipo de triângulo pode calcular as distâncias entre os vértices do triângulo e verificar relações matemáticas que definem seus tipos. Por exemplo, se todos os lados são iguais, é um triângulo equilátero; se dois lados são iguais, é isósceles; e se nenhum dos lados é igual, é escaleno.",
+    "categoria": "como_funciona"
+  },
+  {
+    "id": 96,
+    "pergunta": "Qual a diferença entre um touchpad e um trackball?",
+    "resposta_referencia": "Um touchpad é um tipo de apontador integrado em computadores portáteis que utiliza a movimentação do dedo na superfície para deslocar o cursor, enquanto um trackball é uma variação invertida do mouse onde a bola central gira para controlar o movimento do cursor. O touchpad geralmente não requer uma área de superfície adicional e pode ser mais fácil de limpar, já que o trackball tem partes móveis expostas.",
+    "categoria": "qual_quais"
+  },
+  {
+    "id": 97,
+    "pergunta": "O que é data captured em arquitetura de processador?",
+    "resposta_referencia": "Data captured é um conceito na arquitetura de processadores onde operandos prontos são copiados para a janela de instrução a partir do registrador arquitetural ou físico. Operando não prontos têm suas marcas inseridas na janela de instrução, sendo usadas para latches quando os dados forem avançados pelas unidades funcionais.",
+    "categoria": "o_que_e"
+  },
+  {
+    "id": 98,
+    "pergunta": "Qual é a principal diferença entre ponteiros e referências em linguagens de programação?",
+    "resposta_referencia": "A principal diferença entre ponteiros e referências é que as referências são mais limitadas do que os ponteiros. As referências são um alias para uma variável existente, enquanto ponteiros podem ser nulos ou apontar para nenhum endereço de memória. Além disso, em muitas linguagens de programação, o uso de referências é restrito a tipos de valor, enquanto os ponteiros podem apontar para quase qualquer tipo.",
+    "categoria": "qual_quais"
+  },
+  {
+    "id": 99,
+    "pergunta": "O que é passagem por valor-resultado?",
+    "resposta_referencia": "Passagem por valor-resultado é um modelo de implementação para parâmetros no qual os valores reais são copiados, criando uma chamada de passagem por cópia. Neste método, os parâmetros formais têm armazenamento local e a desvantagem envolve algumas das mesmas dificuldades enfrentadas pela passagem por valor e por resultado.",
+    "categoria": "o_que_e"
+  },
+  {
+    "id": 100,
+    "pergunta": "Como funciona a organização dos registros em tabelas?",
+    "resposta_referencia": "Os registros são organizados em tabelas (também chamadas de tabelas relativas), onde cada linha representa um registro e cada coluna representa um campo específico. Isso permite acessar, manipular e gerenciar os dados de forma eficiente.",
+    "categoria": "como_funciona"
+  }
+]
